@@ -30,7 +30,7 @@ latest_posts:
   limit: 3
 ---
 
-你好！我是 Yurui Jin。我目前在布里斯托大学科学与工程学部攻读机器人学硕士学位（MSc in Robotics），该专业由[布里斯托大学](https://www.bristol.ac.uk/)与[西英格兰大学 (UWE Bristol)](https://www.uwe.ac.uk/)联合授课。此前，我在利物浦大学获得了机电一体化与机器人系统专业的工学学士学位。
+你好！我是金榆瑞。我目前在布里斯托大学科学与工程学部攻读机器人学硕士学位（MSc in Robotics），该专业由[布里斯托大学](https://www.bristol.ac.uk/)与[西英格兰大学 (UWE Bristol)](https://www.uwe.ac.uk/)联合授课。此前，我在利物浦大学获得了机电一体化与机器人系统专业的工学学士学位。
 
 我的研究兴趣主要集中在机器人运动规划、控制系统以及机械设计领域。我致力于将软件算法与硬件实体相结合，在 ROS、嵌入式开发（STM32、Arduino）以及 3D 建模（SolidWorks）方面拥有丰富的实践经验。
 
