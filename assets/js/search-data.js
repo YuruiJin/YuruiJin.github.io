@@ -83,6 +83,20 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/multi-language-al-folio/blog/";
               },
+            },{id: "dropdown-estante-de-livros",
+              title: "estante de livros",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/books/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/blog/";
+              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -550,18 +564,11 @@ ninja.data = [{
           window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
+          id: 'lang-zh-cn',
+          title: 'zh-cn',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/multi-language-al-folio/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/multi-language-al-folio/fr-ca" + updatedUrl;
+            window.location.href = "/multi-language-al-folio/zh-cn" + updatedUrl;
           },
         },{
       id: 'light-theme',
