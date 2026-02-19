@@ -1,5 +1,12 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+---
+page_id: about_einstein
+layout: about
+title: 关于爱因斯坦
+permalink: /about_einstein/
+---
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
+在此处写下您的个人简介。向世界展示你自己。可以链接到你最喜欢的 [论坛](http://reddit.com)。你也可以放一张照片。代码已经预设好了，只需将你的照片命名为 `prof_pic.jpg` 并放入 `assets/img/` 文件夹中即可。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+在照片下方写下你的地址、邮政信箱或其他信息。你也可以通过编辑 `_pages/zh-cn/about.md` 文件头部 YAML 配置中的 `profile` 属性来禁用这些元素。编辑 `_bibliography/papers.bib` 文件，Jekyll 会自动渲染你的 [论文发表页面](/publications/)。
+
+记得也链接上你的社交媒体。此主题支持使用 [Font Awesome 图标](https://fontawesome.com/) 和 [Academicons](https://jpswalsh.github.io/academicons/)，如下所示。你可以添加 Facebook、Twitter、LinkedIn、Google Scholar，或者直接禁用它们。
