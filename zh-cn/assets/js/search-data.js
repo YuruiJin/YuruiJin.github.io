@@ -69,7 +69,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/people/";
           },
-        },{id: "dropdown-bookshelf",
+        },{id: "dropdown-书架",
+              title: "书架",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/zh-cn/books/";
+              },
+            },{id: "dropdown-博客",
+              title: "博客",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/zh-cn/blog/";
+              },
+            },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
