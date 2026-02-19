@@ -82,7 +82,7 @@ cv:
 footer:
   copyright: 版权所有
   last_updated: "最近更新于："
-footer_text: > 
+footer_text: >
   由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 驱动，使用 <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> 主题。
   托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
   照片来自 <a href="https://unsplash.com" target="_blank">Unsplash</a>。
@@ -161,4 +161,4 @@ search:
     title: 使用系统默认主题
   theme: 主题
 selected_publications: 精选论文
-site_description: 一个简洁、留白的学术个人主页主题。基于 [*folio](https://github.com/bogoli/-folio) 设计。
+site_description: 一个简洁、留白的学术个人主页主题。
