@@ -1,101 +1,66 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+basics:
+  name: Yurui Jin
+  email: 17751223361@163.com
+  phone: (+86) 18115528307
+  url: https://yuruijin.github.io
+  summary: MSc Robotics student at University of Bristol & UWE Bristol. Highly passionate about bridging software algorithms with hardware deployment.
+  location:
+    city: Bristol
+    countryCode: UK
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+education:
+  - institution: University of Bristol & UWE Bristol
+    location: UK
+    area: MSc in Robotics
+    startDate: 2025-09
+    endDate: 2026-07
+    courses:
+      - Robotics Science & Systems, Machine Vision, Advanced Control & Dynamics, Robot Learning for Control
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+  - institution: University of Liverpool
+    location: UK
+    area: BEng Mechatronics and Robotics System
+    startDate: 2021-09
+    endDate: 2025-07
+    score: "Degree Classification: 2:1 (Upper Second Class Honours)"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+projects:
+  - name: Intelligent Infant Inspection Robot
+    startDate: 2024-06
+    endDate: 2024-07
+    summary: Modeling and Control Lead
+    highlights:
+      - Designed mechanical structure in SolidWorks and enhanced the robotic arm with protective housing.
+      - Achieved First Prize in Jiangsu Province and Second Prize in the National Finals.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+  - name: XJTLU Gmaster Team (RoboMaster)
+    startDate: 2021-08
+    endDate: 2023-08
+    summary: Core Member - Mechanical & Suspension Design
+    highlights:
+      - Designed and optimized suspension systems and robotic arm mechanisms for infantry and engineering robots.
+      - Won National First Prize at RoboMaster 2022 National Finals.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+work:
+  - company: Yicheng Rong Chuang Information Technology
+    position: R&D Intern
+    startDate: 2023-06
+    endDate: 2023-07
+    summary: Developed a remote temperature and humidity monitoring system using ESP32 and C.
+    highlights:
+      - Implemented sensor data collection, WiFi connectivity, and MQTT protocol.
+      - Built cloud-based data storage and visualization.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
+publications:
+  - name: A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism
+    publisher: 19th IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2024)
+    releaseDate: 2024-07
+    summary: Co-authored paper on a novel soft robotic gripper design.
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+skills:
+  - name: Engineering & Hardware
+    keywords:
+      - SolidWorks, ANSYS, STM32, Arduino, Altium Designer, PID Control
+  - name: Software & Algorithm
+    keywords:
+      - ROS, Gazebo, MoveIt, MATLAB/Simulink, Python, C
