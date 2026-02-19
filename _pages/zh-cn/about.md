@@ -1,5 +1,5 @@
 ---
-page_id: about
+id: about
 layout: about
 title: 关于我
 permalink: /
