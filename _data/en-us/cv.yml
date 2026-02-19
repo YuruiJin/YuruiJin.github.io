@@ -1,66 +1,61 @@
-basics:
-  name: Yurui Jin
-  email: 17751223361@163.com
-  phone: (+86) 18115528307
-  url: https://yuruijin.github.io
-  summary: MSc Robotics student at University of Bristol & UWE Bristol. Highly passionate about bridging software algorithms with hardware deployment.
-  location:
-    city: Bristol
-    countryCode: UK
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yurui Jin
+    - name: Email
+      value: <a href="mailto:17751223361@163.com">17751223361@163.com</a>
+    - name: Phone
+      value: (+86) 18115528307
 
-education:
-  - institution: University of Bristol & UWE Bristol
-    location: UK
-    area: MSc in Robotics
-    startDate: 2025-09
-    endDate: 2026-07
-    courses:
-      - Robotics Science & Systems, Machine Vision, Advanced Control & Dynamics, Robot Learning for Control
+- title: Education
+  type: time_table
+  contents:
+    - title: MSc in Robotics
+      institution: University of Bristol & UWE Bristol, UK
+      year: 2025 - 2026
+      description: "Core Courses: Robotics Science & Systems, Machine Vision, Advanced Control & Dynamics, Robot Learning for Control"
+    - title: BEng Mechatronics and Robotics System
+      institution: University of Liverpool, UK
+      year: 2021 - 2025
+      description: "Degree Classification: 2:1 (Upper Second Class Honours)"
 
-  - institution: University of Liverpool
-    location: UK
-    area: BEng Mechatronics and Robotics System
-    startDate: 2021-09
-    endDate: 2025-07
-    score: "Degree Classification: 2:1 (Upper Second Class Honours)"
+- title: Engineering Projects
+  type: time_table
+  contents:
+    - title: Intelligent Infant Inspection Robot
+      institution: Modeling and Control Lead
+      year: 2024
+      description: >
+        - Designed mechanical structure in SolidWorks and enhanced the robotic arm with protective housing.<br>
+        - Achieved First Prize in Jiangsu Province and Second Prize in the National Finals.
+    - title: XJTLU Gmaster Team (RoboMaster)
+      institution: Core Member - Mechanical & Suspension Design
+      year: 2021 - 2023
+      description: >
+        - Designed and optimized suspension systems and robotic arm mechanisms for infantry and engineering robots.<br>
+        - Won National First Prize at RoboMaster 2022 National Finals.
 
-projects:
-  - name: Intelligent Infant Inspection Robot
-    startDate: 2024-06
-    endDate: 2024-07
-    summary: Modeling and Control Lead
-    highlights:
-      - Designed mechanical structure in SolidWorks and enhanced the robotic arm with protective housing.
-      - Achieved First Prize in Jiangsu Province and Second Prize in the National Finals.
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: R&D Intern
+      institution: Yicheng Rong Chuang Information Technology
+      year: 2023
+      description: >
+        - Developed a remote temperature and humidity monitoring system using ESP32 and C.<br>
+        - Implemented sensor data collection, WiFi connectivity, and MQTT protocol.
 
-  - name: XJTLU Gmaster Team (RoboMaster)
-    startDate: 2021-08
-    endDate: 2023-08
-    summary: Core Member - Mechanical & Suspension Design
-    highlights:
-      - Designed and optimized suspension systems and robotic arm mechanisms for infantry and engineering robots.
-      - Won National First Prize at RoboMaster 2022 National Finals.
+- title: Publications & Patents
+  type: time_table
+  contents:
+    - title: A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism
+      institution: 19th IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2024)
+      year: 2024
+      description: Co-authored paper on a novel soft robotic gripper design.
 
-work:
-  - company: Yicheng Rong Chuang Information Technology
-    position: R&D Intern
-    startDate: 2023-06
-    endDate: 2023-07
-    summary: Developed a remote temperature and humidity monitoring system using ESP32 and C.
-    highlights:
-      - Implemented sensor data collection, WiFi connectivity, and MQTT protocol.
-      - Built cloud-based data storage and visualization.
-
-publications:
-  - name: A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism
-    publisher: 19th IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2024)
-    releaseDate: 2024-07
-    summary: Co-authored paper on a novel soft robotic gripper design.
-
-skills:
-  - name: Engineering & Hardware
-    keywords:
-      - SolidWorks, ANSYS, STM32, Arduino, Altium Designer, PID Control
-  - name: Software & Algorithm
-    keywords:
-      - ROS, Gazebo, MoveIt, MATLAB/Simulink, Python, C
+- title: Skills
+  type: list
+  contents:
+    - <b>Engineering & Hardware:</b> SolidWorks, ANSYS, STM32, Arduino, Altium Designer, PID Control
+    - <b>Software & Algorithm:</b> ROS, Gazebo, MoveIt, MATLAB/Simulink, Python, C
