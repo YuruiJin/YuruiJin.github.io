@@ -1,13 +1,14 @@
 ---
+page_id: books
 layout: book-shelf
-title: bookshelf
+title: 书架
 permalink: /books/
 nav: false
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
+> 书是一件多么了不起的东西。它是由树木制成的扁平物体，带有柔韧的部分，上面印满了许多有趣的黑色曲线。但只要看上一眼，你就进入了另一个人的思想，也许是某个已经死去了几千年的人。跨越数千年，作者正在你的脑海中清晰而无声地直接对你说话。书写或许是人类最伟大的发明，它将互不相识的人、遥远时代的公民联系在一起。书籍打破了时间的枷锁。书就是人类能够创造奇迹的证明。
 >
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+> -- 卡尔·萨根 (Carl Sagan)，《宇宙》，第11部分：记忆的持久性 (1980)
 
-## Books that I am reading, have read, or will read
+## 我正在阅读、读过或计划阅读的书籍
