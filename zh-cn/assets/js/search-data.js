@@ -1,10 +1,10 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://george-gca.github.io";
-let updatedUrl = currentUrl.replace("https://george-gca.github.io/multi-language-al-folio", "");
+const siteUrl = "https://yuruijin.github.io";
+let updatedUrl = currentUrl.replace("https://yuruijin.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
-  updatedUrl = currentUrl.replace(otherSiteUrl + "/multi-language-al-folio", "");
+  updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
 }
 if ("zh-cn".length > 0) {
   updatedUrl = updatedUrl.replace("/zh-cn", "");
@@ -18,98 +18,98 @@ ninja.data = [{
     title: "关于我",
     section: "导航菜单",
     handler: () => {
-      window.location.href = "/multi-language-al-folio/zh-cn/";
+      window.location.href = "/zh-cn/";
     },
   },{id: "nav-博客",
           title: "博客",
           description: "一个简洁的学术个人主页主题",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/";
+            window.location.href = "/zh-cn/blog/";
           },
         },{id: "nav-论文发表",
           title: "论文发表",
           description: "按类别反向时间顺序排列的论文列表。由 jekyll-scholar 自动生成。",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/publications/";
+            window.location.href = "/zh-cn/publications/";
           },
         },{id: "nav-项目",
           title: "项目",
           description: "个人项目作品集展示。",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/projects/";
+            window.location.href = "/zh-cn/projects/";
           },
         },{id: "nav-代码仓库",
           title: "代码仓库",
           description: "请编辑 `_data/repositories.yml` 并修改 `github_users` 和 `github_repos` 列表，以包含您自己的 GitHub 个人资料和项目仓库。",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/repositories/";
+            window.location.href = "/zh-cn/repositories/";
           },
         },{id: "nav-简历",
           title: "简历",
           description: "这是简历页面的描述。你可以在 &#39;_pages/zh-cn/cv.md&#39; 中修改这些文字，或者更改/移除顶部的 PDF 下载按钮。",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/cv/";
+            window.location.href = "/zh-cn/cv/";
           },
         },{id: "nav-教学",
           title: "教学",
           description: "你教授的课程材料。请将此段文字替换为您自己的描述。",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/teaching/";
+            window.location.href = "/zh-cn/teaching/";
           },
         },{id: "nav-团队成员",
           title: "团队成员",
           description: "实验室或团队成员介绍",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/multi-language-al-folio/zh-cn/people/";
+            window.location.href = "/zh-cn/people/";
           },
         },{id: "dropdown-书架",
               title: "书架",
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/zh-cn/books/";
+                window.location.href = "/zh-cn/books/";
               },
             },{id: "dropdown-博客",
               title: "博客",
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/zh-cn/blog/";
+                window.location.href = "/zh-cn/blog/";
               },
             },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/zh-cn/books/";
+                window.location.href = "/zh-cn/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/zh-cn/blog/";
+                window.location.href = "/zh-cn/blog/";
               },
             },{id: "dropdown-estante-de-livros",
               title: "estante de livros",
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/zh-cn/books/";
+                window.location.href = "/zh-cn/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/multi-language-al-folio/zh-cn/blog/";
+                window.location.href = "/zh-cn/blog/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -119,7 +119,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2025/plotly/";
+            window.location.href = "/zh-cn/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -130,7 +130,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/photo-gallery/";
+            window.location.href = "/zh-cn/blog/2024/photo-gallery/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -152,7 +152,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/tabs/";
+            window.location.href = "/zh-cn/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -163,7 +163,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/typograms/";
+            window.location.href = "/zh-cn/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -174,7 +174,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/post-citation/";
+            window.location.href = "/zh-cn/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -185,7 +185,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/pseudocode/";
+            window.location.href = "/zh-cn/blog/2024/pseudocode/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -196,7 +196,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/code-diff/";
+            window.location.href = "/zh-cn/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -207,7 +207,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/advanced-images/";
+            window.location.href = "/zh-cn/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -218,7 +218,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/vega-lite/";
+            window.location.href = "/zh-cn/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -229,7 +229,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/geojson-map/";
+            window.location.href = "/zh-cn/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -240,7 +240,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/echarts/";
+            window.location.href = "/zh-cn/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -251,7 +251,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2024/chartjs/";
+            window.location.href = "/zh-cn/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -262,7 +262,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/tikzjax/";
+            window.location.href = "/zh-cn/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -273,7 +273,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/post-bibliography/";
+            window.location.href = "/zh-cn/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -284,7 +284,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/jupyter-notebook/";
+            window.location.href = "/zh-cn/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -295,7 +295,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/custom-blockquotes/";
+            window.location.href = "/zh-cn/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -306,7 +306,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/zh-cn/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -317,7 +317,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/audios/";
+            window.location.href = "/zh-cn/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -328,7 +328,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/videos/";
+            window.location.href = "/zh-cn/blog/2023/videos/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -339,7 +339,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/tables/";
+            window.location.href = "/zh-cn/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -350,7 +350,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2023/table-of-contents/";
+            window.location.href = "/zh-cn/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -361,7 +361,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2022/giscus-comments/";
+            window.location.href = "/zh-cn/blog/2022/giscus-comments/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -383,7 +383,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/assets/pdf/en-us/example_pdf.pdf";
+            window.location.href = "/zh-cn/assets/pdf/en-us/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -394,7 +394,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2021/diagrams/";
+            window.location.href = "/zh-cn/blog/2021/diagrams/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -405,7 +405,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2020/twitter/";
+            window.location.href = "/zh-cn/blog/2020/twitter/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -416,7 +416,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2018/distill/";
+            window.location.href = "/zh-cn/blog/2018/distill/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -427,7 +427,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2015/disqus-comments/";
+            window.location.href = "/zh-cn/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -438,7 +438,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2015/math/";
+            window.location.href = "/zh-cn/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -449,7 +449,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2015/code/";
+            window.location.href = "/zh-cn/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -460,7 +460,7 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2015/images/";
+            window.location.href = "/zh-cn/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -471,14 +471,14 @@ ninja.data = [{
         section: "文章",
         handler: () => {
           
-            window.location.href = "/multi-language-al-folio/zh-cn/blog/2015/formatting-and-links/";
+            window.location.href = "/zh-cn/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/books/the_godfather/";
+              window.location.href = "/zh-cn/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -486,7 +486,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "动态",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/news/announcement_2/";
+              window.location.href = "/zh-cn/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -494,53 +494,53 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/1_project/";
+              window.location.href = "/zh-cn/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/2_project/";
+              window.location.href = "/zh-cn/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/3_project/";
+              window.location.href = "/zh-cn/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/4_project/";
+              window.location.href = "/zh-cn/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/5_project/";
+              window.location.href = "/zh-cn/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/6_project/";
+              window.location.href = "/zh-cn/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/7_project/";
+              window.location.href = "/zh-cn/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/8_project/";
+              window.location.href = "/zh-cn/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "项目",handler: () => {
-              window.location.href = "/multi-language-al-folio/zh-cn/projects/9_project/";
+              window.location.href = "/zh-cn/projects/9_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: '社交账号',
         handler: () => {
-          window.open("/multi-language-al-folio/assets/pdf/zh-cn//assets/pdf/[LANG]/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/zh-cn//assets/pdf/[LANG]/example_pdf.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -561,7 +561,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: '社交账号',
         handler: () => {
-          window.open("/multi-language-al-folio/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -582,7 +582,7 @@ ninja.data = [{
           title: 'en-us',
           section: '语言',
           handler: () => {
-            window.location.href = "/multi-language-al-folio" + updatedUrl;
+            window.location.href = "" + updatedUrl;
           },
         },{
       id: 'light-theme',
