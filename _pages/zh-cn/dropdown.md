@@ -1,5 +1,5 @@
 ---
-page_id: dropdown
+id: dropdown
 layout: page
 title: 更多
 nav: true
