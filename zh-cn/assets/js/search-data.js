@@ -41,9 +41,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-代码仓库",
+          title: "代码仓库",
+          description: "请编辑 `_data/repositories.yml` 并修改 `github_users` 和 `github_repos` 列表，以包含您自己的 GitHub 个人资料和项目仓库。",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/repositories/";
@@ -55,9 +55,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+        },{id: "nav-教学",
+          title: "教学",
+          description: "你教授的课程材料。请将此段文字替换为您自己的描述。",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/teaching/";
