@@ -69,12 +69,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-书架",
+              title: "书架",
               description: "",
               section: "下拉菜单",
               handler: () => {
                 window.location.href = "/zh-cn/books/";
+              },
+            },{id: "dropdown-博客",
+              title: "博客",
+              description: "",
+              section: "下拉菜单",
+              handler: () => {
+                window.location.href = "/zh-cn/blog/";
               },
             },{id: "post-a-post-with-plotly-js",
         
