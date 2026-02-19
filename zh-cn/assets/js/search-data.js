@@ -74,14 +74,7 @@ ninja.data = [{
               description: "",
               section: "下拉菜单",
               handler: () => {
-                window.location.href = "/zh-cn/books/";
-              },
-            },{id: "dropdown-博客",
-              title: "博客",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/zh-cn/blog/";
+                window.location.href = "/zh-cn/zh-cn/books/";
               },
             },{id: "post-a-post-with-plotly-js",
         
