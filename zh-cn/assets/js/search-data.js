@@ -48,9 +48,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+        },{id: "nav-简历",
+          title: "简历",
+          description: "这是简历页面的描述。你可以在 &#39;_pages/zh-cn/cv.md&#39; 中修改这些文字，或者更改/移除顶部的 PDF 下载按钮。",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/cv/";
