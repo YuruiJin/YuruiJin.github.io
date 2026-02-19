@@ -41,9 +41,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/projects/";
           },
-        },{id: "nav-代码仓库",
-          title: "代码仓库",
-          description: "请编辑 `_data/repositories.yml` 并修改 `github_users` 和 `github_repos` 列表，以包含您自己的 GitHub 个人资料和项目仓库。",
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/repositories/";
