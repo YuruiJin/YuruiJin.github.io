@@ -2,12 +2,12 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: 教学
+description: 你教授的课程材料。请将此段文字替换为您自己的描述。
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+目前，此页面被假定为你所授课程的静态描述。你可以将其转换为类似于 `_projects/` 的集合，以便为每门课程建立专门的页面。
 
-Organize your courses by years, topics, or universities, however you like!
+你可以按照年份、主题或大学来组织你的课程，随你喜欢！
