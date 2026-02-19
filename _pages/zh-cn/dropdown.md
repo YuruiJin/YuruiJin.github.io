@@ -5,7 +5,7 @@ title: 更多
 nav: true
 nav_order: 8
 dropdown: true
-lang: en-us
+lang: zh-cn
 children:
   - title: 书架
     permalink: /books/
