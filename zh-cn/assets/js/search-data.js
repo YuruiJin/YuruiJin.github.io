@@ -62,9 +62,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-团队成员",
+          title: "团队成员",
+          description: "实验室或团队成员介绍",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/people/";
