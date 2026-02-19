@@ -1,89 +1,66 @@
-- title: 基本信息
-  type: map
-  contents:
-    - name: 姓名
-      value: 金榆瑞 (Yurui Jin)
-    - name: 出生日期
-      value: 2000年12月5日
-    - name: 语言
-      value: 中文, 英文
+basics:
+  name: Yurui Jin
+  email: 17751223361@163.com
+  phone: (+86) 18115528307
+  url: https://yuruijin.github.io
+  summary: 布里斯托大学及西英格兰大学联合授课机器人硕士。致力于将软件算法与硬件实体相融合。
+  location:
+    city: Bristol
+    countryCode: UK
 
-- title: 教育背景
-  type: time_table
-  contents:
-    - title: 博士
-      institution: 布里斯托大学
-      year: 1905
-      description:
-        - 描述项目 1
-        - 描述项目 2
-        - title: 详细描述 3
-          contents:
-            - 子描述 1
-            - 子描述 2
-    - title: 联邦教学文凭
-      institution: 瑞士苏黎世联邦理工学院 (ETH Zurich)
-      year: 1900
-      description:
-        - 描述项目 1
-        - 描述项目 2
+education:
+  - institution: 布里斯托大学 (University of Bristol) & 西英格兰大学 (UWE)
+    location: 英国
+    area: 机器人学理学硕士 (MSc in Robotics)
+    startDate: 2025-09
+    endDate: 2026-07
+    courses:
+      - 机器人科学与系统, 机器视觉, 高级控制与动力学, 机器人学习与控制
 
-- title: 工作经历
-  type: time_table
-  contents:
-    - title: 理论物理学教授
-      institution: 普林斯顿大学高等研究院
-      year: 1933 - 1955
-      description:
-        - 描述项目 1
-        - 描述项目 2
-    - title: 客座教授
-      institution: 美国加州理工学院 (Caltech)
-      year: 1933
-    - title: 所长
-      institution: 德国柏林凯撒·威廉物理研究所
-      year: 1917 - 1933
-    - title: 理论物理学教授
-      institution: 捷克斯洛伐克布拉格查理大学
-      year: 1911 - 1917
-    - title: 理论物理学副教授
-      institution: 瑞士苏黎世大学
-      year: 1909 - 1911
+  - institution: 利物浦大学 (University of Liverpool)
+    location: 英国
+    area: 机电一体化与机器人系统工学学士 (BEng)
+    startDate: 2021-09
+    endDate: 2025-07
+    score: "学位等级: 二等一荣誉学位 (2:1)"
 
-- title: 开源项目
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023 - 至今
-      description: 支持多语言的 al-folio 主题分支版本。
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015 - 至今
-      description: 一个美观、简洁且响应式的学术 Jekyll 主题。
+projects:
+  - name: 智能婴儿巡检机器人
+    startDate: 2024-06
+    endDate: 2024-07
+    summary: 建模与控制负责人
+    highlights:
+      - 使用 SolidWorks 设计机械结构，并为机械臂增加电气元件保护外壳以提高安全性。
+      - 荣获江苏省一等奖、全国总决赛二等奖。
 
-- title: 荣誉与奖项
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - 诺贝尔物理学奖
-        - 马泰乌奇奖章
-    - year: 1929
-      items:
-        - 马克斯·普朗克奖章
+  - name: XJTLU Gmaster 战队 (RoboMaster 机甲大师赛)
+    startDate: 2021-08
+    endDate: 2023-08
+    summary: 核心研发成员
+    highlights:
+      - 负责步兵和工程机器人的悬挂系统与机械臂机构的设计与优化。
+      - 荣获 2022 赛季 RoboMaster 全国总决赛一等奖及多项华东赛区奖项。
 
-- title: 学术兴趣
-  type: nested_list
-  contents:
-    - title: 研究方向 1
-      items:
-        - 详细描述 1
-        - 详细描述 2
-    - title: 研究方向 2
-      items:
-        - 详细描述 1
-        - 详细描述 2
+work:
+  - company: 易诚荣创信息技术
+    position: 研发实习生
+    startDate: 2023-06
+    endDate: 2023-07
+    summary: 基于 ESP32 和 C 语言开发远程温湿度监控系统。
+    highlights:
+      - 实现了传感器数据采集、WiFi 连接和基于 MQTT 协议的数据传输。
+      - 构建了基于云端的数据存储与可视化系统，完成了系统集成与功能测试。
 
-- title: 其他兴趣
-  type: list
-  contents:
-    - <u>兴趣爱好：</u> 爱好 1, 爱好 2, 等等。
+publications:
+  - name: A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism (双板簧变刚度夹爪)
+    publisher: 第19届 IEEE/ASME 先进智能机电系统国际会议 (AIM 2024)
+    releaseDate: 2024-07
+    summary: 参与研发双板簧变刚度软体夹爪并发表顶会论文。
+
+skills:
+  - name: 机械设计与硬件
+    keywords:
+      - SolidWorks, ANSYS, STM32, Arduino, Altium Designer, PID 控制
+  - name: 算法与软件
+    keywords:
+      - ROS, Gazebo, MoveIt, MATLAB/Simulink, Python, C
