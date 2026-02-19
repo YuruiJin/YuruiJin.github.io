@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   MSc Robotics Student at <a href='https://www.bristol.ac.uk/' target='_blank'>University of Bristol</a>
