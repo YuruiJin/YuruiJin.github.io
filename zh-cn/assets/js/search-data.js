@@ -20,9 +20,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/multi-language-al-folio/zh-cn/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "a simple whitespace theme for academics",
+  },{id: "nav-博客",
+          title: "博客",
+          description: "一个简洁的学术个人主页主题",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/zh-cn/blog/";
