@@ -76,22 +76,22 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/zh-cn/books/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-带有-plotly-js-的文章",
         
-          title: "a post with plotly.js",
+          title: "带有 plotly.js 的文章",
         
-        description: "this is what included plotly.js code could look like",
+        description: "这是包含 plotly.js 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2025/plotly/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-带有图片画廊的文章",
         
-          title: "a post with image galleries",
+          title: "带有图片画廊的文章",
         
-        description: "this is what included image galleries could look like",
+        description: "这是包含图片画廊的示例效果",
         section: "文章",
         handler: () => {
           
@@ -109,220 +109,220 @@ ninja.data = [{
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-a-post-with-tabs",
+      },{id: "post-带有选项卡的文章",
         
-          title: "a post with tabs",
+          title: "带有选项卡的文章",
         
-        description: "this is what included tabs in a post could look like",
+        description: "这是包含选项卡的文章示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/tabs/";
           
         },
-      },{id: "post-a-post-with-typograms",
+      },{id: "post-带有-typograms-的文章",
         
-          title: "a post with typograms",
+          title: "带有 typograms 的文章",
         
-        description: "this is what included typograms code could look like",
+        description: "这是包含 typograms 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/typograms/";
           
         },
-      },{id: "post-a-post-that-can-be-cited",
+      },{id: "post-可被引用的文章",
         
-          title: "a post that can be cited",
+          title: "可被引用的文章",
         
-        description: "this is what a post that can be cited looks like",
+        description: "这是可被引用的文章的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/post-citation/";
           
         },
-      },{id: "post-a-post-with-pseudo-code",
+      },{id: "post-带有伪代码的文章",
         
-          title: "a post with pseudo code",
+          title: "带有伪代码的文章",
         
-        description: "this is what included pseudo code could look like",
+        description: "这是包含伪代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/pseudocode/";
           
         },
-      },{id: "post-a-post-with-code-diff",
+      },{id: "post-带有代码差异的文章",
         
-          title: "a post with code diff",
+          title: "带有代码差异的文章",
         
-        description: "this is how you can display code diffs",
+        description: "这是如何显示代码差异",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/code-diff/";
           
         },
-      },{id: "post-a-post-with-advanced-image-components",
+      },{id: "post-带有高级图片组件的文章",
         
-          title: "a post with advanced image components",
+          title: "带有高级图片组件的文章",
         
-        description: "this is what advanced image components could look like",
+        description: "这是高级图片组件的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/advanced-images/";
           
         },
-      },{id: "post-a-post-with-vega-lite",
+      },{id: "post-带有-vega-lite-的文章",
         
-          title: "a post with vega lite",
+          title: "带有 vega lite 的文章",
         
-        description: "this is what included vega lite code could look like",
+        description: "这是包含 vega lite 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/vega-lite/";
           
         },
-      },{id: "post-a-post-with-geojson",
+      },{id: "post-带有-geojson-的文章",
         
-          title: "a post with geojson",
+          title: "带有 geojson 的文章",
         
-        description: "this is what included geojson code could look like",
+        description: "这是包含 geojson 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/geojson-map/";
           
         },
-      },{id: "post-a-post-with-echarts",
+      },{id: "post-带有-echarts-的文章",
         
-          title: "a post with echarts",
+          title: "带有 echarts 的文章",
         
-        description: "this is what included echarts code could look like",
+        description: "这是包含 echarts 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/echarts/";
           
         },
-      },{id: "post-a-post-with-chart-js",
+      },{id: "post-带有-chart-js-的文章",
         
-          title: "a post with chart.js",
+          title: "带有 chart.js 的文章",
         
-        description: "this is what included chart.js code could look like",
+        description: "这是包含 chart.js 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/chartjs/";
           
         },
-      },{id: "post-a-post-with-tikzjax",
+      },{id: "post-带有-tikzjax-的文章",
         
-          title: "a post with TikZJax",
+          title: "带有 TikZJax 的文章",
         
-        description: "this is what included TikZ code could look like",
+        description: "这是包含 TikZ 代码的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/tikzjax/";
           
         },
-      },{id: "post-a-post-with-bibliography",
+      },{id: "post-带有参考文献的文章",
         
-          title: "a post with bibliography",
+          title: "带有参考文献的文章",
         
-        description: "an example of a blog post with bibliography",
+        description: "带有参考文献的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/post-bibliography/";
           
         },
-      },{id: "post-a-post-with-jupyter-notebook",
+      },{id: "post-带有-jupyter-notebook-的文章",
         
-          title: "a post with jupyter notebook",
+          title: "带有 jupyter notebook 的文章",
         
-        description: "an example of a blog post with jupyter notebook",
+        description: "带有 jupyter notebook 的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/jupyter-notebook/";
           
         },
-      },{id: "post-a-post-with-custom-blockquotes",
+      },{id: "post-带有自定义引用块的文章",
         
-          title: "a post with custom blockquotes",
+          title: "带有自定义引用块的文章",
         
-        description: "an example of a blog post with custom blockquotes",
+        description: "带有自定义引用块的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/custom-blockquotes/";
           
         },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+      },{id: "post-带有侧边栏目录的文章",
         
-          title: "a post with table of contents on a sidebar",
+          title: "带有侧边栏目录的文章",
         
-        description: "an example of a blog post with table of contents on a sidebar",
+        description: "带有侧边栏目录的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/sidebar-table-of-contents/";
           
         },
-      },{id: "post-a-post-with-audios",
+      },{id: "post-带有音频的文章",
         
-          title: "a post with audios",
+          title: "带有音频的文章",
         
-        description: "this is what included audios could look like",
+        description: "这是包含音频的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/audios/";
           
         },
-      },{id: "post-a-post-with-videos",
+      },{id: "post-带有视频的文章",
         
-          title: "a post with videos",
+          title: "带有视频的文章",
         
-        description: "this is what included videos could look like",
+        description: "这是包含视频的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/videos/";
           
         },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
+      },{id: "post-使用-bootstrap-tables-展示精美表格",
         
-          title: "displaying beautiful tables with Bootstrap Tables",
+          title: "使用 Bootstrap Tables 展示精美表格",
         
-        description: "an example of how to use Bootstrap Tables",
+        description: "如何使用 Bootstrap Tables 的示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/tables/";
           
         },
-      },{id: "post-a-post-with-table-of-contents",
+      },{id: "post-带有目录的文章",
         
-          title: "a post with table of contents",
+          title: "带有目录的文章",
         
-        description: "an example of a blog post with table of contents",
+        description: "带有目录的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/table-of-contents/";
           
         },
-      },{id: "post-a-post-with-giscus-comments",
+      },{id: "post-带有-giscus-评论的文章",
         
-          title: "a post with giscus comments",
+          title: "带有 giscus 评论的文章",
         
-        description: "an example of a blog post with giscus comments",
+        description: "带有 giscus 评论的博客文章示例",
         section: "文章",
         handler: () => {
           
@@ -340,99 +340,99 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "post-a-post-with-redirect",
+      },{id: "post-带有重定向的文章",
         
-          title: "a post with redirect",
+          title: "带有重定向的文章",
         
-        description: "you can also redirect to assets like pdf",
+        description: "您也可以重定向到资源，如 PDF",
         section: "文章",
         handler: () => {
           
-            window.location.href = "/zh-cn/assets/pdf/en-us/example_pdf.pdf";
+            window.location.href = "/zh-cn/assets/pdf/zh-cn/example_pdf.pdf";
           
         },
-      },{id: "post-a-post-with-diagrams",
+      },{id: "post-带有图表的文章",
         
-          title: "a post with diagrams",
+          title: "带有图表的文章",
         
-        description: "an example of a blog post with diagrams",
+        description: "带有图表的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2021/diagrams/";
           
         },
-      },{id: "post-a-post-with-twitter",
+      },{id: "post-带有-twitter-的文章",
         
-          title: "a post with twitter",
+          title: "带有 Twitter 的文章",
         
-        description: "an example of a blog post with twitter",
+        description: "带有 Twitter 的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2020/twitter/";
           
         },
-      },{id: "post-a-distill-style-blog-post",
+      },{id: "post-distill-样式的博客文章",
         
-          title: "a distill-style blog post",
+          title: "distill 样式的博客文章",
         
-        description: "an example of a distill-style blog post and main elements",
+        description: "distill 样式博客文章及主要元素的示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2018/distill/";
           
         },
-      },{id: "post-a-post-with-disqus-comments",
+      },{id: "post-带有-disqus-评论的文章",
         
-          title: "a post with disqus comments",
+          title: "带有 disqus 评论的文章",
         
-        description: "an example of a blog post with disqus comments",
+        description: "带有 disqus 评论的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/disqus-comments/";
           
         },
-      },{id: "post-a-post-with-math",
+      },{id: "post-带有数学公式的文章",
         
-          title: "a post with math",
+          title: "带有数学公式的文章",
         
-        description: "an example of a blog post with some math",
+        description: "带有数学公式的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/math/";
           
         },
-      },{id: "post-a-post-with-code",
+      },{id: "post-带有代码的文章",
         
-          title: "a post with code",
+          title: "带有代码的文章",
         
-        description: "an example of a blog post with some code",
+        description: "带有代码的博客文章示例",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/code/";
           
         },
-      },{id: "post-a-post-with-images",
+      },{id: "post-带有图片的文章",
         
-          title: "a post with images",
+          title: "带有图片的文章",
         
-        description: "this is what included images could look like",
+        description: "这是包含图片的示例效果",
         section: "文章",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/images/";
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
+      },{id: "post-带有格式化和链接的文章",
         
-          title: "a post with formatting and links",
+          title: "带有格式化和链接的文章",
         
-        description: "march &amp; april, looking forward to summer",
+        description: "三月与四月，期待夏天",
         section: "文章",
         handler: () => {
           
@@ -444,60 +444,60 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/zh-cn/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-一个简单的内联公告",
+          title: '一个简单的内联公告。',
           description: "",
-          section: "动态",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "动态",},{id: "news-带有详情的长公告",
+          title: '带有详情的长公告',
           description: "",
           section: "动态",handler: () => {
               window.location.href = "/zh-cn/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-一个带有-markdown-表情符号的简单内联公告-sparkles-smile",
+          title: '一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:',
           description: "",
-          section: "动态",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "动态",},{id: "projects-项目-1",
+          title: '项目 1',
+          description: "带有背景图片",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-项目-2",
+          title: '项目 2',
+          description: "带有背景图片和 giscus 评论的项目",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-项目-3-名称很长",
+          title: '项目 3 名称很长',
+          description: "重定向到另一个网站的项目",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-项目-4",
+          title: '项目 4',
+          description: "另一个没有图片的项目",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-项目-5",
+          title: '项目 5',
+          description: "带有背景图片的项目",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-项目-6",
+          title: '项目 6',
+          description: "没有图片的项目",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-项目-7",
+          title: '项目 7',
+          description: "带有背景图片",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-项目-8",
+          title: '项目 8',
+          description: "另一个带有背景图片和 giscus 评论的项目",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-项目-9",
+          title: '项目 9',
+          description: "另一个带有图片的项目 🎉",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/9_project/";
             },},{
