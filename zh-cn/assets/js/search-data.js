@@ -512,14 +512,14 @@ ninja.data = [{
         title: '发送邮件',
         section: '社交账号',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%79%75%72%75%69.%6A%69%6E%30%30%31%32%30%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: '社交账号',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/YuruiJin", "_blank");
         },
       },{
         id: 'social-rss',
@@ -533,7 +533,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: '社交账号',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=R3GqrO8AAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
