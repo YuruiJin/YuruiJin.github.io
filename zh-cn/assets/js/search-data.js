@@ -43,24 +43,17 @@ ninja.data = [{
           },
         },{id: "nav-代码仓库",
           title: "代码仓库",
-          description: "请编辑 `_data/repositories.yml` 并修改 `github_users` 和 `github_repos` 列表，以包含您自己的 GitHub 个人资料和项目仓库。",
+          description: "我的 GitHub 代码仓库与开源贡献。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/repositories/";
           },
         },{id: "nav-简历",
           title: "简历",
-          description: "这是简历页面的描述。你可以在 &#39;_pages/zh-cn/cv.md&#39; 中修改这些文字，或者更改/移除顶部的 PDF 下载按钮。",
+          description: "我的个人简历。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/cv/";
-          },
-        },{id: "nav-教学",
-          title: "教学",
-          description: "你教授的课程材料。请将此段文字替换为您自己的描述。",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/zh-cn/teaching/";
           },
         },{id: "nav-团队成员",
           title: "团队成员",
@@ -96,17 +89,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "文章",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-带有选项卡的文章",
@@ -329,17 +311,6 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "文章",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-带有重定向的文章",
         
           title: "带有重定向的文章",
@@ -455,51 +426,11 @@ ninja.data = [{
             },},{id: "news-一个带有-markdown-表情符号的简单内联公告-sparkles-smile",
           title: '一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:',
           description: "",
-          section: "动态",},{id: "projects-项目-1",
-          title: '项目 1',
-          description: "带有背景图片",
+          section: "动态",},{id: "projects-可变刚度夹持器",
+          title: '可变刚度夹持器',
+          description: "基于双板簧机构的自适应抓取夹持器",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/1_project/";
-            },},{id: "projects-项目-2",
-          title: '项目 2',
-          description: "带有背景图片和 giscus 评论的项目",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/2_project/";
-            },},{id: "projects-项目-3-名称很长",
-          title: '项目 3 名称很长',
-          description: "重定向到另一个网站的项目",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/3_project/";
-            },},{id: "projects-项目-4",
-          title: '项目 4',
-          description: "另一个没有图片的项目",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/4_project/";
-            },},{id: "projects-项目-5",
-          title: '项目 5',
-          description: "带有背景图片的项目",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/5_project/";
-            },},{id: "projects-项目-6",
-          title: '项目 6',
-          description: "没有图片的项目",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/6_project/";
-            },},{id: "projects-项目-7",
-          title: '项目 7',
-          description: "带有背景图片",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/7_project/";
-            },},{id: "projects-项目-8",
-          title: '项目 8',
-          description: "另一个带有背景图片和 giscus 评论的项目",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/8_project/";
-            },},{id: "projects-项目-9",
-          title: '项目 9',
-          description: "另一个带有图片的项目 🎉",
-          section: "项目",handler: () => {
-              window.location.href = "/zh-cn/projects/9_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
