@@ -4,7 +4,7 @@ layout: profiles
 permalink: /people/
 title: 团队成员
 description: 实验室或团队成员介绍
-nav: true
+nav: false
 nav_order: 7
 
 profiles:

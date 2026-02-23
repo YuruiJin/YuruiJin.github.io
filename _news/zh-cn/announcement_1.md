@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-07-01 12:00:00+0000
 inline: true
 related_posts: false
 ---
 
-一个简单的内联公告。
+我们的论文"A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism"已被第19届 IEEE/ASME 先进智能机电系统国际会议 (AIM 2024) 录用！:tada:
