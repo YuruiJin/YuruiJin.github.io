@@ -1,5 +1,5 @@
 ---
-id: books
+page_id: books
 layout: book-shelf
 title: Bookshelf
 permalink: /books/
