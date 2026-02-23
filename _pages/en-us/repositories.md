@@ -3,7 +3,7 @@ page_id: repositories
 layout: page
 permalink: /repositories/
 title: Repositories
-description: My GitHub repositories and open-source contributions.
+description: A collection of my open-source projects and contributions on GitHub.
 nav: true
 nav_order: 4
 ---

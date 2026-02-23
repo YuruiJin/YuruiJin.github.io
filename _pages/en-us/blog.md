@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: Blog
 blog_name: Yurui's Blog
-description: Thoughts on robotics, engineering, and research
+description: Thoughts on robotics, motion planning, and engineering
 nav: true
 nav_order: 1
 pagination:
