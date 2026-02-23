@@ -3,7 +3,7 @@ page_id: repositories
 layout: page
 permalink: /repositories/
 title: 代码仓库
-description: 请编辑 `_data/repositories.yml` 并修改 `github_users` 和 `github_repos` 列表，以包含您自己的 GitHub 个人资料和项目仓库。
+description: 我的 GitHub 代码仓库与开源贡献。
 nav: true
 nav_order: 4
 ---
