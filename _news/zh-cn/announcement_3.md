@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-09-01 12:00:00+0000
 inline: true
 related_posts: false
 ---
 
-一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:
+正式开始在布里斯托大学 & 西英格兰大学攻读机器人学硕士学位！:sparkles:
