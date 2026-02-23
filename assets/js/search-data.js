@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "Blog",
-          description: "Thoughts on robotics, engineering, and research",
+          description: "Thoughts on robotics, motion planning, and engineering",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/blog/";
@@ -43,24 +43,17 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "My GitHub repositories and open-source contributions.",
+          description: "A collection of my open-source projects and contributions on GitHub.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "My curriculum vitae.",
+          description: "Yurui Jin&#39;s curriculum vitae.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-people",
-          title: "People",
-          description: "members of the lab or group",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -68,6 +61,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/books/";
+              },
+            },{id: "dropdown-书架",
+              title: "书架",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/zh-cn/books/";
               },
             },{id: "post-a-post-with-plotly-js",
         
