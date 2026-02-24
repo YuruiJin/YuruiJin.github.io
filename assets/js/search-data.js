@@ -430,7 +430,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-core-research-your-research-title",
+          section: "News",},{id: "projects-variable-stiffness-gripper-with-dual-leaf-spring-mechanism",
+          title: 'Variable Stiffness Gripper with Dual Leaf-Spring Mechanism',
+          description: "A lightweight, compact variable stiffness gripper using dual leaf-spring mechanism for industrial grasping of objects with different hardness levels. Published at IEEE CASE 2023.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/variable_stiffness_gripper/";
+            },},{id: "projects-core-research-your-research-title",
           title: 'Core Research: [Your Research Title]',
           description: "One-sentence description of your core PhD research contribution.",
           section: "Projects",handler: () => {

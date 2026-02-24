@@ -437,7 +437,12 @@ ninja.data = [{
             },},{id: "news-一个带有-markdown-表情符号的简单内联公告-sparkles-smile",
           title: '一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:',
           description: "",
-          section: "动态",},{id: "projects-核心研究-研究标题",
+          section: "动态",},{id: "projects-基于双板簧机构的变刚度夹爪",
+          title: '基于双板簧机构的变刚度夹爪',
+          description: "一种轻量紧凑的双板簧变刚度夹爪，用于工业场景中对不同硬度物体的自适应抓取。发表于 IEEE CASE 2023。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/variable_stiffness_gripper/";
+            },},{id: "projects-核心研究-研究标题",
           title: '核心研究：[研究标题]',
           description: "一句话概述博士期间的核心研究贡献。",
           section: "项目",handler: () => {
