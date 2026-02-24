@@ -7,10 +7,11 @@ This directory contains static assets for the YuruiJin academic website.
 ```
 assets/
 ├── img/
-│   ├── projects/          # Project cover images and figures
-│   │   ├── project1/      # Images for project 1 (core research / robot system / competition / industry)
-│   │   └── project2/      # Images for project 2 (algorithm & perception / open source)
-│   └── ...                # Other site images (profile, publications, etc.)
+│   ├── projects/                          # Project cover images and figures
+│   │   ├── variable_stiffness_gripper/    # IEEE CASE 2023 dual leaf-spring gripper project
+│   │   ├── project1/                      # Images for project 1 (core research / robot system / competition / industry)
+│   │   └── project2/                      # Images for project 2 (algorithm & perception / open source)
+│   └── ...                                # Other site images (profile, publications, etc.)
 ├── video/                 # NOTE: Only for reference links; direct upload not supported
 │   └── ...                # Existing demo videos (local playback via path interface)
 ├── pdf/                   # PDF files (CV, papers)
@@ -31,6 +32,35 @@ Or embed figures in content using `figure.liquid`:
 ```liquid
 {% include figure.liquid path="assets/img/projects/project1/architecture.jpg" caption="Figure caption." class="img-fluid rounded z-depth-1" %}
 ```
+
+Use `zoomable=true` to allow readers to click and enlarge figures:
+```liquid
+{% include figure.liquid path="assets/img/projects/project1/architecture.jpg" caption="Figure caption." class="img-fluid rounded z-depth-1" zoomable=true %}
+```
+
+### Cover Image Naming Convention
+
+Name your cover image `cover.jpg` and place it in the project's subdirectory:
+```
+assets/img/projects/<project-folder>/cover.jpg
+```
+This matches the `img:` field in the project front matter.
+
+### variable_stiffness_gripper Image List
+
+The following images should be uploaded to `assets/img/projects/variable_stiffness_gripper/`:
+
+| Filename | Description |
+|----------|-------------|
+| `cover.jpg` | Cover image |
+| `fig1_system.jpg` | Complete grasping system: robot arm + camera + DLSG |
+| `fig3_printed_parts.jpg` | 3D printed slider and fingers |
+| `fig4_principle_sketch.jpg` | Dual leaf-spring + four-bar linkage working principle |
+| `fig5_simulation_plots.jpg` | Stiffness/grasping force vs. position and angle (simulation) |
+| `fig6_validation_setup.jpg` | Validation experimental setup |
+| `fig7_stiffness_validation_plot.jpg` | Model vs. experimental comparison curves |
+| `fig8_flowchart.jpg` | Detection-based grasping pipeline flowchart |
+| `fig9_grasping_sequence.jpg` | Grasping sequence for strawberry/egg/wooden cylinder |
 
 ## Video Embedding (YouTube & Bilibili Only)
 
