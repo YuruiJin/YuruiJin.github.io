@@ -1,10 +1,11 @@
 ---
+page_id: variable_stiffness_gripper
 layout: page
 title: "Variable Stiffness Gripper with Dual Leaf-Spring Mechanism"
 description: "A lightweight, compact variable stiffness gripper using dual leaf-spring mechanism for industrial grasping of objects with different hardness levels. Published at IEEE CASE 2023."
 img: assets/img/projects/variable_stiffness_gripper/cover.jpg
 importance: 1
-category: "Core Research"
+category: core-research
 tags: [robotics, gripper, variable-stiffness, mechanism-design, IEEE-CASE]
 related_publications: true
 date: 2023-08-26

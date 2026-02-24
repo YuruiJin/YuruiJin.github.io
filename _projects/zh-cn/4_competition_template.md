@@ -1,5 +1,6 @@
 ---
 page_id: competition_template
+published: false
 layout: page
 title: "竞赛：[赛事名称] [年份]"
 description: 我们团队在 [赛事] 的技术方案与参赛成绩。

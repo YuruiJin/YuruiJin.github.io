@@ -1,10 +1,11 @@
 ---
+page_id: variable_stiffness_gripper
 layout: page
 title: "基于双板簧机构的变刚度夹爪"
 description: "一种轻量紧凑的双板簧变刚度夹爪，用于工业场景中对不同硬度物体的自适应抓取。发表于 IEEE CASE 2023。"
 img: assets/img/projects/variable_stiffness_gripper/cover.jpg
 importance: 1
-category: "核心研究"
+category: core-research
 tags: [机器人, 夹爪, 变刚度, 机构设计, IEEE-CASE]
 related_publications: true
 date: 2023-08-26

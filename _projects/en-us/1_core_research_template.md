@@ -1,5 +1,6 @@
 ---
 page_id: core_research_template
+published: false
 layout: page
 title: "Core Research: [Your Research Title]"
 description: One-sentence description of your core PhD research contribution.

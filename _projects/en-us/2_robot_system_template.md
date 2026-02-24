@@ -1,5 +1,6 @@
 ---
 page_id: robot_system_template
+published: false
 layout: page
 title: "Robot System Integration: [System Name]"
 description: A complete robotic system for [application domain].

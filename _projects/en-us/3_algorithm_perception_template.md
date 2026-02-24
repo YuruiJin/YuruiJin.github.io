@@ -1,5 +1,6 @@
 ---
 page_id: algorithm_perception_template
+published: false
 layout: page
 title: "Algorithm & Perception: [Algorithm Name]"
 description: A novel algorithm for [task] achieving state-of-the-art performance.
