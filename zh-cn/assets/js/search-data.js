@@ -87,6 +87,17 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2025/plotly/";
           
         },
+      },{id: "post-读书笔记-机器人工程师学习计划",
+        
+          title: "读书笔记：机器人工程师学习计划",
+        
+        description: "推荐知乎博主 YY硕 的文章《机器人工程师学习计划》，系统梳理机器人领域的核心知识体系。",
+        section: "文章",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2025/robotics-engineer-learning-plan/";
+          
+        },
       },{id: "post-带有图片画廊的文章",
         
           title: "带有图片画廊的文章",

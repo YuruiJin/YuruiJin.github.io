@@ -80,6 +80,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
+      },{id: "post-reading-note-a-learning-plan-for-robotics-engineers",
+        
+          title: "Reading Note: A Learning Plan for Robotics Engineers",
+        
+        description: "A recommended reading on the essential knowledge areas for aspiring robotics engineers, based on the Zhihu article by YY硕.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/robotics-engineer-learning-plan/";
+          
+        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
