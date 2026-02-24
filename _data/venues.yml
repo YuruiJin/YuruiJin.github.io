@@ -1,9 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CASE":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/case
+  color: "#00629B"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE":
+  url: https://www.ieee.org/
+  color: "#00629B"
 
-"Vision":
-  color: "#009f36"
+"AIM":
+  url: https://www.aim2024.org/
+  color: "#006400"
+
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  color: "#B22222"
+
+"pedestrian_dynamics":
+  color: "#8B4513"
