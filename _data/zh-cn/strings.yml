@@ -20,6 +20,12 @@ blog:
 categories:
   fun: 兴趣
   work: 工作
+  core-research: 核心研究
+  robot-system: 机器人系统集成
+  algorithm-perception: 算法与感知
+  competition: 竞赛与挑战赛
+  open-source: 开源贡献与工具
+  industry: 产业合作与应用落地
 citation:
   bibtex: "或作为 BibTeX 条目："
   introduction: "如果您觉得这篇文章有用，请引用为："

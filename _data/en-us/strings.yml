@@ -20,6 +20,12 @@ blog:
 categories:
   fun: fun
   work: work
+  core-research: Core Research
+  robot-system: Robot System Integration
+  algorithm-perception: Algorithm & Perception
+  competition: Competition
+  open-source: Open Source & Tools
+  industry: Industry Collaboration
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
