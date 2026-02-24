@@ -1,3 +1,24 @@
+{% if include.provider %}
+  {% if include.provider == 'youtube' %}
+    {% assign video_src = 'https://www.youtube.com/embed/' | append: include.id %}
+  {% elsif include.provider == 'bilibili' %}
+    {% assign video_src = 'https://player.bilibili.com/player.html?bvid=' | append: include.id | append: '&high_quality=1&danmaku=0' %}
+  {% endif %}
+  <figure>
+    <div class="video-container" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+      <iframe
+        src="{{ video_src }}"
+        {% if include.class %}class="{{ include.class }}"{% endif %}
+        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        {% if include.title %}title="{{ include.title }}"{% endif %}
+      ></iframe>
+    </div>
+    {% if include.caption %}<figcaption class="caption">{{ include.caption }}</figcaption>{% endif %}
+  </figure>
+{% else %}
 {% assign extension = include.path | split: '.' | last %}
 
 <figure>
@@ -95,3 +116,4 @@
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+{% endif %}

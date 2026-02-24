@@ -6,7 +6,7 @@ permalink: /projects/
 description: My robotics and engineering projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [core-research, robot-system, algorithm-perception, competition, open-source, industry, work, fun]
 horizontal: false
 ---
 

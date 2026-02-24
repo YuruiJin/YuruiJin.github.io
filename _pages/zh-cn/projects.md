@@ -6,7 +6,7 @@ permalink: /projects/
 description: 个人项目作品集展示。
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [core-research, robot-system, algorithm-perception, competition, open-source, industry, work, fun]
 horizontal: false
 ---
 
