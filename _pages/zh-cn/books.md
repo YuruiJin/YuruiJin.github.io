@@ -1,8 +1,8 @@
 ---
-id: books
+page_id: books
 layout: book-shelf
 title: 书架
-permalink: /zh-cn/books/
+permalink: /books/
 nav: false
 collection: books
 lang: zh-cn

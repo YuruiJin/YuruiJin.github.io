@@ -7,6 +7,6 @@ nav_order: 8
 dropdown: true
 lang: en-us
 children:
-  - title: bookshelf
+  - title: Bookshelf
     permalink: /books/
 ---

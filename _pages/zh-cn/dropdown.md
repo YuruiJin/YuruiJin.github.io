@@ -1,5 +1,5 @@
 ---
-id: dropdown
+page_id: dropdown
 layout: page
 title: 更多
 nav: true
@@ -8,5 +8,5 @@ dropdown: true
 lang: zh-cn
 children:
   - title: 书架
-    permalink: /zh-cn/books/
+    permalink: /books/
 ---
