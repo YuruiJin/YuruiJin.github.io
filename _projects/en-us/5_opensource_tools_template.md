@@ -1,5 +1,6 @@
 ---
 page_id: opensource_tools_template
+published: false
 layout: page
 title: "Open Source: [Tool/Package Name]"
 description: An open-source [tool type] for [purpose].

@@ -1,5 +1,6 @@
 ---
 page_id: opensource_tools_template
+published: false
 layout: page
 title: "开源工具：[工具/功能包名称]"
 description: 面向 [用途] 的开源 [工具类型]。

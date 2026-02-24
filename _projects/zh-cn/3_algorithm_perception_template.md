@@ -1,5 +1,6 @@
 ---
 page_id: algorithm_perception_template
+published: false
 layout: page
 title: "算法与感知：[算法名称]"
 description: 面向 [任务] 的新型算法，达到最优性能。

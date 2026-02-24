@@ -1,5 +1,6 @@
 ---
 page_id: industry_collaboration_template
+published: false
 layout: page
 title: "产业合作：[项目标题]"
 description: 与 [合作企业] 在 [应用场景] 领域的产学研合作项目。

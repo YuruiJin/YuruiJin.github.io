@@ -1,5 +1,6 @@
 ---
 page_id: core_research_template
+published: false
 layout: page
 title: "核心研究：[研究标题]"
 description: 一句话概述博士期间的核心研究贡献。

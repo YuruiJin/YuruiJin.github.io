@@ -1,5 +1,6 @@
 ---
 page_id: robot_system_template
+published: false
 layout: page
 title: "机器人系统集成：[系统名称]"
 description: 面向 [应用场景] 的完整机器人系统设计与实现。

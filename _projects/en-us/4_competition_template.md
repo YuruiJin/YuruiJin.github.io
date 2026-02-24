@@ -1,5 +1,6 @@
 ---
 page_id: competition_template
+published: false
 layout: page
 title: "Competition: [Competition Name Year]"
 description: Our team's technical approach and results at [competition].

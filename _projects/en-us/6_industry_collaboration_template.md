@@ -1,5 +1,6 @@
 ---
 page_id: industry_collaboration_template
+published: false
 layout: page
 title: "Industry Collaboration: [Project Title]"
 description: A collaborative project with [company] for [application].
