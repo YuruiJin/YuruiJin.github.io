@@ -437,11 +437,41 @@ ninja.data = [{
             },},{id: "news-一个带有-markdown-表情符号的简单内联公告-sparkles-smile",
           title: '一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:',
           description: "",
-          section: "动态",},{id: "projects-可变刚度夹持器",
+          section: "动态",},{id: "projects-核心研究-研究标题",
+          title: '核心研究：[研究标题]',
+          description: "一句话概述博士期间的核心研究贡献。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/1_core_research_template/";
+            },},{id: "projects-可变刚度夹持器",
           title: '可变刚度夹持器',
           description: "基于双板簧机构的自适应抓取夹持器",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/1_project/";
+            },},{id: "projects-机器人系统集成-系统名称",
+          title: '机器人系统集成：[系统名称]',
+          description: "面向 [应用场景] 的完整机器人系统设计与实现。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/2_robot_system_template/";
+            },},{id: "projects-算法与感知-算法名称",
+          title: '算法与感知：[算法名称]',
+          description: "面向 [任务] 的新型算法，达到最优性能。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/3_algorithm_perception_template/";
+            },},{id: "projects-竞赛-赛事名称-年份",
+          title: '竞赛：[赛事名称] [年份]',
+          description: "我们团队在 [赛事] 的技术方案与参赛成绩。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/4_competition_template/";
+            },},{id: "projects-开源工具-工具-功能包名称",
+          title: '开源工具：[工具/功能包名称]',
+          description: "面向 [用途] 的开源 [工具类型]。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/5_opensource_tools_template/";
+            },},{id: "projects-产业合作-项目标题",
+          title: '产业合作：[项目标题]',
+          description: "与 [合作企业] 在 [应用场景] 领域的产学研合作项目。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/6_industry_collaboration_template/";
             },},{
         id: 'social-cv',
         title: 'CV',

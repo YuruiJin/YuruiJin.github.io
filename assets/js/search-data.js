@@ -430,11 +430,41 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-variable-stiffness-gripper",
+          section: "News",},{id: "projects-core-research-your-research-title",
+          title: 'Core Research: [Your Research Title]',
+          description: "One-sentence description of your core PhD research contribution.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_core_research_template/";
+            },},{id: "projects-variable-stiffness-gripper",
           title: 'Variable Stiffness Gripper',
           description: "A gripper with dual leaf-spring mechanism for adaptive grasping",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-robot-system-integration-system-name",
+          title: 'Robot System Integration: [System Name]',
+          description: "A complete robotic system for [application domain].",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_robot_system_template/";
+            },},{id: "projects-algorithm-amp-perception-algorithm-name",
+          title: 'Algorithm &amp;amp; Perception: [Algorithm Name]',
+          description: "A novel algorithm for [task] achieving state-of-the-art performance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_algorithm_perception_template/";
+            },},{id: "projects-competition-competition-name-year",
+          title: 'Competition: [Competition Name Year]',
+          description: "Our team&#39;s technical approach and results at [competition].",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_competition_template/";
+            },},{id: "projects-open-source-tool-package-name",
+          title: 'Open Source: [Tool/Package Name]',
+          description: "An open-source [tool type] for [purpose].",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_opensource_tools_template/";
+            },},{id: "projects-industry-collaboration-project-title",
+          title: 'Industry Collaboration: [Project Title]',
+          description: "A collaborative project with [company] for [application].",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_industry_collaboration_template/";
             },},{
         id: 'social-cv',
         title: 'CV',
