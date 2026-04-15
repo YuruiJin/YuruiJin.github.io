@@ -501,13 +501,4 @@ ninja.data = [{
       handler: () => {
         setThemeSetting("dark");
       },
-    },
-    {
-      id: 'system-theme',
-      title: '使用系统默认主题',
-      description: '将网站主题更改为系统默认',
-      section: '主题',
-      handler: () => {
-        setThemeSetting("system");
-      },
     },];
