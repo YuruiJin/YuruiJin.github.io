@@ -4,7 +4,7 @@
     - name: Full Name
       value: Yurui Jin
     - name: Email
-      value: '{{ "17751223361@163.com" | encode_email }}'
+      value: 17751223361@163.com
     - name: Phone
       value: (+86) 18115528307
 
