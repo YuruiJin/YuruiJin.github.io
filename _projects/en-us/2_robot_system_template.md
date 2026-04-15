@@ -46,9 +46,9 @@ This project presents a complete robotic system for [application]. The system in
 
 <!-- Describe the ROS node graph and key topics/services. -->
 
-| Node | Function | Topics/Services |
-|------|----------|-----------------|
-| `[node_name]` | [Function] | `/topic_name` |
+| Node          | Function   | Topics/Services |
+| ------------- | ---------- | --------------- |
+| `[node_name]` | [Function] | `/topic_name`   |
 
 ## Experimental Results
 

@@ -40,10 +40,10 @@ Our approach consists of the following key components:
 
 <!-- Present quantitative results and comparisons. -->
 
-| Metric | Ours | Baseline A | Baseline B |
-|--------|------|------------|------------|
-| [Metric 1] | **XX%** | YY% | ZZ% |
-| [Metric 2] | **XX** | YY | ZZ |
+| Metric     | Ours    | Baseline A | Baseline B |
+| ---------- | ------- | ---------- | ---------- |
+| [Metric 1] | **XX%** | YY%        | ZZ%        |
+| [Metric 2] | **XX**  | YY         | ZZ         |
 
 ## Demo
 

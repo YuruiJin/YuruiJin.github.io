@@ -21,12 +21,12 @@ This project was conducted in collaboration with [Company Name] to develop [solu
 
 ## Partner
 
-| Item | Detail |
-|------|--------|
-| **Partner** | [Company Name] |
-| **Duration** | [Start] – [End] |
-| **Project Type** | [R&D / Technology Transfer / Consulting] |
-| **Deployment Scale** | [Lab / Pilot / Production] |
+| Item                 | Detail                                   |
+| -------------------- | ---------------------------------------- |
+| **Partner**          | [Company Name]                           |
+| **Duration**         | [Start] – [End]                          |
+| **Project Type**     | [R&D / Technology Transfer / Consulting] |
+| **Deployment Scale** | [Lab / Pilot / Production]               |
 
 ## Project Objectives
 
@@ -54,8 +54,8 @@ This project was conducted in collaboration with [Company Name] to develop [solu
 
 <!-- Report real-world performance metrics. -->
 
-| Metric | Target | Achieved |
-|--------|--------|----------|
+| Metric     | Target   | Achieved     |
+| ---------- | -------- | ------------ |
 | [Metric 1] | [Target] | **[Result]** |
 | [Metric 2] | [Target] | **[Result]** |
 

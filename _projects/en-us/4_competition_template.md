@@ -21,19 +21,20 @@ giscus_comments: true
 
 ## Competition Details
 
-| Item | Detail |
-|------|--------|
-| **Competition** | [Competition Name] |
-| **Year** | [Year] |
-| **Track / League** | [Track name] |
-| **Team Size** | [N] members |
-| **Final Ranking** | [Rank] / [Total teams] |
+| Item               | Detail                 |
+| ------------------ | ---------------------- |
+| **Competition**    | [Competition Name]     |
+| **Year**           | [Year]                 |
+| **Track / League** | [Track name]           |
+| **Team Size**      | [N] members            |
+| **Final Ranking**  | [Rank] / [Total teams] |
 
 ## My Role
 
 <!-- Describe your specific contribution. -->
 
 I was responsible for:
+
 - **[Responsibility 1]**: [Description]
 - **[Responsibility 2]**: [Description]
 

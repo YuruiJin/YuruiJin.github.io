@@ -31,6 +31,7 @@ Given [inputs], the goal is to [output/objective].
 ### Method
 
 Our method consists of three stages:
+
 1. **[Stage 1]**: [Description]
 2. **[Stage 2]**: [Description]
 3. **[Stage 3]**: [Description]
@@ -45,11 +46,11 @@ Our method consists of three stages:
 
 ## Performance Comparison
 
-| Method | Dataset A | Dataset B | Runtime |
-|--------|-----------|-----------|---------|
-| [Baseline 1] | XX% | YY% | ZZ ms |
-| [Baseline 2] | XX% | YY% | ZZ ms |
-| **Ours** | **XX%** | **YY%** | **ZZ ms** |
+| Method       | Dataset A | Dataset B | Runtime   |
+| ------------ | --------- | --------- | --------- |
+| [Baseline 1] | XX%       | YY%       | ZZ ms     |
+| [Baseline 2] | XX%       | YY%       | ZZ ms     |
+| **Ours**     | **XX%**   | **YY%**   | **ZZ ms** |
 
 ## Demo
 
