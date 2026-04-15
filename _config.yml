@@ -415,7 +415,7 @@ enable_project_categories: true # enables categorization of projects into multip
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
-cv_password_hash: "5c803f95e15d095a5b42f0bde3df694d6b6c8dbfe9015e1fd56be55cf3f2f318" # SHA-256 of JYR for frontend CV download protection
+cv_password_hash: "34c09ea4635e0f4a5c655981a397385c6f95a2da0fc759f9e5d45ecb140b4475" # SHA-256 of JYR for frontend CV download protection
 
 # -----------------------------------------------------------------------------
 # Library versions
