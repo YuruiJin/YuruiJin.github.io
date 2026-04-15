@@ -4,7 +4,7 @@
     - name: 姓名
       value: 金榆瑞 (Yurui Jin)
     - name: 邮箱
-      value: <a href="mailto:17751223361@163.com">17751223361@163.com</a>
+      value: '{{ "17751223361@163.com" | encode_email }}'
     - name: 电话
       value: (+86) 18115528307
 
