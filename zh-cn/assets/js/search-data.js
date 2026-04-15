@@ -69,18 +69,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/books/";
               },
-            },{id: "post-带有-plotly-js-的文章",
-        
-          title: "带有 plotly.js 的文章",
-        
-        description: "这是包含 plotly.js 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2025/plotly/";
-          
-        },
-      },{id: "post-读书笔记-机器人工程师学习计划",
+            },{id: "post-读书笔记-机器人工程师学习计划",
         
           title: "读书笔记：机器人工程师学习计划",
         
@@ -91,351 +80,19 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2025/robotics-engineer-learning-plan/";
           
         },
-      },{id: "post-带有图片画廊的文章",
-        
-          title: "带有图片画廊的文章",
-        
-        description: "这是包含图片画廊的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-带有选项卡的文章",
-        
-          title: "带有选项卡的文章",
-        
-        description: "这是包含选项卡的文章示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/tabs/";
-          
-        },
-      },{id: "post-带有-typograms-的文章",
-        
-          title: "带有 typograms 的文章",
-        
-        description: "这是包含 typograms 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/typograms/";
-          
-        },
-      },{id: "post-可被引用的文章",
-        
-          title: "可被引用的文章",
-        
-        description: "这是可被引用的文章的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-带有伪代码的文章",
-        
-          title: "带有伪代码的文章",
-        
-        description: "这是包含伪代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-带有代码差异的文章",
-        
-          title: "带有代码差异的文章",
-        
-        description: "这是如何显示代码差异",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-带有高级图片组件的文章",
-        
-          title: "带有高级图片组件的文章",
-        
-        description: "这是高级图片组件的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-带有-vega-lite-的文章",
-        
-          title: "带有 vega lite 的文章",
-        
-        description: "这是包含 vega lite 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-带有-geojson-的文章",
-        
-          title: "带有 geojson 的文章",
-        
-        description: "这是包含 geojson 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-带有-echarts-的文章",
-        
-          title: "带有 echarts 的文章",
-        
-        description: "这是包含 echarts 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/echarts/";
-          
-        },
-      },{id: "post-带有-chart-js-的文章",
-        
-          title: "带有 chart.js 的文章",
-        
-        description: "这是包含 chart.js 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-带有-tikzjax-的文章",
-        
-          title: "带有 TikZJax 的文章",
-        
-        description: "这是包含 TikZ 代码的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-带有参考文献的文章",
-        
-          title: "带有参考文献的文章",
-        
-        description: "带有参考文献的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-带有-jupyter-notebook-的文章",
-        
-          title: "带有 jupyter notebook 的文章",
-        
-        description: "带有 jupyter notebook 的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-带有自定义引用块的文章",
-        
-          title: "带有自定义引用块的文章",
-        
-        description: "带有自定义引用块的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-带有侧边栏目录的文章",
-        
-          title: "带有侧边栏目录的文章",
-        
-        description: "带有侧边栏目录的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-带有音频的文章",
-        
-          title: "带有音频的文章",
-        
-        description: "这是包含音频的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/audios/";
-          
-        },
-      },{id: "post-带有视频的文章",
-        
-          title: "带有视频的文章",
-        
-        description: "这是包含视频的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/videos/";
-          
-        },
-      },{id: "post-使用-bootstrap-tables-展示精美表格",
-        
-          title: "使用 Bootstrap Tables 展示精美表格",
-        
-        description: "如何使用 Bootstrap Tables 的示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/tables/";
-          
-        },
-      },{id: "post-带有目录的文章",
-        
-          title: "带有目录的文章",
-        
-        description: "带有目录的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-带有-giscus-评论的文章",
-        
-          title: "带有 giscus 评论的文章",
-        
-        description: "带有 giscus 评论的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-带有重定向的文章",
-        
-          title: "带有重定向的文章",
-        
-        description: "您也可以重定向到资源，如 PDF",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/assets/pdf/zh-cn/example_pdf.pdf";
-          
-        },
-      },{id: "post-带有图表的文章",
-        
-          title: "带有图表的文章",
-        
-        description: "带有图表的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-带有-twitter-的文章",
-        
-          title: "带有 Twitter 的文章",
-        
-        description: "带有 Twitter 的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2020/twitter/";
-          
-        },
-      },{id: "post-distill-样式的博客文章",
-        
-          title: "distill 样式的博客文章",
-        
-        description: "distill 样式博客文章及主要元素的示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2018/distill/";
-          
-        },
-      },{id: "post-带有-disqus-评论的文章",
-        
-          title: "带有 disqus 评论的文章",
-        
-        description: "带有 disqus 评论的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-带有数学公式的文章",
-        
-          title: "带有数学公式的文章",
-        
-        description: "带有数学公式的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2015/math/";
-          
-        },
-      },{id: "post-带有代码的文章",
-        
-          title: "带有代码的文章",
-        
-        description: "带有代码的博客文章示例",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2015/code/";
-          
-        },
-      },{id: "post-带有图片的文章",
-        
-          title: "带有图片的文章",
-        
-        description: "这是包含图片的示例效果",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2015/images/";
-          
-        },
-      },{id: "post-带有格式化和链接的文章",
-        
-          title: "带有格式化和链接的文章",
-        
-        description: "三月与四月，期待夏天",
-        section: "文章",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2015/formatting-and-links/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
               window.location.href = "/zh-cn/books/the_godfather/";
-            },},{id: "news-一个简单的内联公告",
-          title: '一个简单的内联公告。',
+            },},{id: "news-在-robomaster-2022-全国大学生机器人大赛总决赛中荣获全国一等奖",
+          title: '在 RoboMaster 2022 全国大学生机器人大赛总决赛中荣获全国一等奖！🏆',
           description: "",
-          section: "动态",},{id: "news-带有详情的长公告",
-          title: '带有详情的长公告',
+          section: "动态",},{id: "news-我们的论文-a-variable-stiffness-gripper-with-dual-leaf-spring-mechanism-在新西兰奥克兰的-ieee-case-2023-会议上发表",
+          title: '我们的论文”A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism”在新西兰奥克兰的 IEEE CASE 2023 会议上发表！📄',
           description: "",
-          section: "动态",handler: () => {
-              window.location.href = "/zh-cn/news/announcement_2/";
-            },},{id: "news-一个带有-markdown-表情符号的简单内联公告-sparkles-smile",
-          title: '一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:',
+          section: "动态",},{id: "news-开始在布里斯托大学和西英格兰大学攻读机器人学硕士学位",
+          title: '开始在布里斯托大学和西英格兰大学攻读机器人学硕士学位！🤖',
           description: "",
           section: "动态",},{id: "projects-基于双板簧机构的变刚度夹爪",
           title: '基于双板簧机构的变刚度夹爪',
@@ -462,6 +119,13 @@ ninja.data = [{
         section: '社交账号',
         handler: () => {
           window.open("https://github.com/YuruiJin", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: '社交账号',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/yuruijin", "_blank");
         },
       },{
         id: 'social-rss',
