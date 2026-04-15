@@ -6,6 +6,7 @@ description: 这是包含 geojson 代码的示例效果
 tags: formatting charts maps
 categories: sample-posts
 map: true
+published: false
 ---
 
 这是一个带有 [geojson](https://geojson.org/) 代码的示例文章。该支持要归功于 [Leaflet](https://leafletjs.com/)。要创建您自己的可视化，请访问 [geojson.io](https://geojson.io/)。

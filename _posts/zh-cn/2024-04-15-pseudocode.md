@@ -6,6 +6,7 @@ description: 这是包含伪代码的示例效果
 tags: formatting code
 categories: sample-posts
 pseudocode: true
+published: false
 ---
 
 这是一个带有伪代码的示例文章，使用 [pseudocode](https://github.com/SaswatPadhi/pseudocode.js) 渲染。此处提供的示例与 [pseudocode.js](https://saswat.padhi.me/pseudocode.js/) 文档中的示例相同，只有一个简单但重要的变化：每次您使用 `$` 时，应改用 `$$`。此外，请注意，前置元数据中的 `pseudocode` 键设置为 `true` 以启用伪代码的渲染。例如，使用以下代码：

@@ -7,6 +7,7 @@ tags: formatting blockquotes
 categories: sample-posts
 giscus_comments: true
 related_posts: true
+published: false
 ---
 
 这篇文章展示了如何为引用块添加自定义样式。基于 [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) 的实现。

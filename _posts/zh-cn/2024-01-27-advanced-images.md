@@ -9,6 +9,7 @@ thumbnail: assets/img/9.jpg
 images:
   compare: true
   slider: true
+published: false
 ---
 
 这是一个带有高级图片组件的示例文章。

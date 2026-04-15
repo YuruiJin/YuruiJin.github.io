@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-08-15 00:00:00+0000
 inline: true
 related_posts: false
 ---
 
-一个带有 Markdown 表情符号的简单内联公告！:sparkles: :smile:
+在 RoboMaster 2022 全国大学生机器人大赛总决赛中荣获全国一等奖！🏆

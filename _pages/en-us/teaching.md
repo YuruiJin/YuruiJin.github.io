@@ -8,4 +8,4 @@ nav: false
 nav_order: 6
 ---
 
-This page is under construction. Teaching experience and course materials will be added soon.
+Coming soon. Check back later for updates on teaching experience and course materials.

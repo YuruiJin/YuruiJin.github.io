@@ -218,3 +218,8 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/* Enlarge CV PDF download icon */
+.cv-protected-download .fa-file-pdf {
+  font-size: 1.5rem;
+}

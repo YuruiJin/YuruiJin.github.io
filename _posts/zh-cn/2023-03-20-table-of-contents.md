@@ -9,6 +9,7 @@ giscus_comments: true
 related_posts: false
 toc:
   beginning: true
+published: false
 ---
 
 这篇文章展示了如何在文章开头添加目录。

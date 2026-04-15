@@ -7,6 +7,7 @@ tags: comments
 categories: sample-posts external-services
 disqus_comments: true
 related_posts: false
+published: false
 ---
 
 这篇文章展示了如何添加 DISQUS 评论。
