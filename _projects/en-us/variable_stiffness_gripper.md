@@ -29,7 +29,7 @@ The DLSG achieves variable stiffness through the following key components:
 
 1. **Core Mechanism**: Two symmetrically arranged leaf springs serve as compliant elements. A roller-bearing slider constrains the vertical deflection of the leaf springs at the contact point, and the stiffness is adjusted by moving the slider to change the effective length of the leaf springs.
 
-2. **Variable Stiffness Principle**: The slider position changes the effective length (*x*), thereby changing the output stiffness. The stiffness grows as (1/(1−x/L)³), increasing significantly near the end of the spring.
+2. **Variable Stiffness Principle**: The slider position changes the effective length (_x_), thereby changing the output stiffness. The stiffness grows as (1/(1−x/L)³), increasing significantly near the end of the spring.
 
 3. **Decoupled Control**: Two motors independently control the gripper — an **angle motor** for opening/closing (grasping angle), and a **stiffness motor** driving the slider via lead screw for stiffness adjustment, with no coupling between the two.
 
@@ -47,14 +47,14 @@ The detection-based grasping pipeline integrates visual perception with stiffnes
 
 ## Key Results
 
-| Metric | Value |
-|--------|-------|
-| Stiffness range | k ∈ [0, 3.5] N·m/rad |
-| Weight | 0.92 kg |
-| Stiffness variation (at q=π/9) | ~0.21 &rarr; ~1.0 N·m/rad over 30 mm slider travel |
-| Grasping force amplification | ~7&times; with slider position change |
-| Stiffness adjustment speed | ~2 s (high speed) / ~5 s (low speed) for 50 mm stroke |
-| Grasping demonstration | Strawberry, egg, and wooden cylinder — all successfully grasped without surface damage |
+| Metric                         | Value                                                                                  |
+| ------------------------------ | -------------------------------------------------------------------------------------- |
+| Stiffness range                | k ∈ [0, 3.5] N·m/rad                                                                   |
+| Weight                         | 0.92 kg                                                                                |
+| Stiffness variation (at q=π/9) | ~0.21 &rarr; ~1.0 N·m/rad over 30 mm slider travel                                     |
+| Grasping force amplification   | ~7&times; with slider position change                                                  |
+| Stiffness adjustment speed     | ~2 s (high speed) / ~5 s (low speed) for 50 mm stroke                                  |
+| Grasping demonstration         | Strawberry, egg, and wooden cylinder — all successfully grasped without surface damage |
 
 {% include figure.liquid path="assets/img/projects/variable_stiffness_gripper/fig5_simulation_plots.jpg" caption="Stiffness and grasping force vs. position and angle (simulation)." class="img-fluid rounded z-depth-1" zoomable=true %}
 
