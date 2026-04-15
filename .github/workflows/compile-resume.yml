@@ -30,7 +30,6 @@ jobs:
         with:
           root_file: CV_Jin_Yurui.tex
           working_directory: resume/zh
-          args: -xelatex -interaction=nonstopmode -halt-on-error -file-line-error
 
       - name: Copy PDFs to language-specific assets paths
         run: |
@@ -40,7 +39,7 @@ jobs:
 
       - name: Commit and push generated PDFs
         run: |
-          if git diff --quiet -- assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf; then
+          if [ -z "$(git status --porcelain -- assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf)" ]; then
             echo "No generated PDF changes detected."
             exit 0
           fi
