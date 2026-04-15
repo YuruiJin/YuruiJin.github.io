@@ -7,7 +7,11 @@ layout: default
   {% else %}
     {% assign cv_pdf_url = page.cv_pdf | prepend: '/' | prepend: site.active_lang | prepend: '/assets/pdf/' | relative_url | bust_file_cache %}
   {% endif %}
-  {% assign cv_pdf_filename = page.cv_pdf | split: '/' | last %}
+  {% if page.cv_pdf_download_name %}
+    {% assign cv_pdf_filename = page.cv_pdf_download_name %}
+  {% else %}
+    {% assign cv_pdf_filename = page.cv_pdf | split: '/' | last %}
+  {% endif %}
 {% endif %}
 {% assign localized_resume = site.active_lang | prepend: 'resume_' %}
 {% unless site.data[localized_resume] %}
