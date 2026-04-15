@@ -11,6 +11,7 @@ images:
   photoswipe: true
   spotlight: true
   venobox: true
+published: false
 ---
 
 本文中的图片都是可缩放的，使用不同的库排列成不同的迷你画廊。

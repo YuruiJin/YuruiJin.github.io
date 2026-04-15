@@ -8,6 +8,7 @@ categories: sample-posts
 giscus_comments: true
 related_posts: false
 related_publications: true
+published: false
 ---
 
 这篇文章展示了如何向简单的博客文章添加参考文献。我们支持 [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) 支持的所有引用样式。这意味着简单引用如 {% cite einstein1950meaning %}、多个引用如 {% cite einstein1950meaning einstein1905movement %}、长引用如 {% reference einstein1905movement %} 或引语：
