@@ -12,3 +12,21 @@ node_modules/
 vendor
 .idea
 .venv
+
+# LaTeX build artifacts for resume sources
+resume/**/*.aux
+resume/**/*.bbl
+resume/**/*.bcf
+resume/**/*.blg
+resume/**/*.fdb_latexmk
+resume/**/*.fls
+resume/**/*.log
+resume/**/*.out
+resume/**/*.pdf
+resume/**/*.run.xml
+resume/**/*.synctex.gz
+resume/**/*.toc
+resume/**/*.xdv
+
+# Keep deployed CV PDFs in site assets tracked
+!assets/pdf/**/*.pdf

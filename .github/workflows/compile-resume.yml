@@ -1,0 +1,52 @@
+name: Compile and deploy bilingual resume PDFs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "resume/**"
+      - ".github/workflows/compile-resume.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compile-resume:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile English resume (pdflatex)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: CV_Jin_Yurui.tex
+          working_directory: resume/en
+
+      - name: Compile Chinese resume (xelatex)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: CV_Jin_Yurui.tex
+          working_directory: resume/zh
+
+      - name: Copy PDFs to language-specific assets paths
+        run: |
+          mkdir -p assets/pdf/en-us assets/pdf/zh-cn
+          cp resume/en/CV_Jin_Yurui.pdf assets/pdf/en-us/CV_Jin_Yurui.pdf
+          cp resume/zh/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf
+
+      - name: Commit and push generated PDFs
+        run: |
+          git add assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf
+
+          if git diff --cached --quiet -- assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf; then
+            echo "No generated PDF changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update compiled bilingual resume PDFs"
+          git push
