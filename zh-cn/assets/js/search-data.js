@@ -447,7 +447,7 @@ ninja.data = [{
         title: 'CV',
         section: '社交账号',
         handler: () => {
-          window.open("/assets/pdf/zh-cn//assets/pdf/[LANG]/CV_Jin_Yurui.pdf", "_blank");
+          window.open("https://yuruijin.github.io/cv/", "_blank");
         },
       },{
         id: 'social-email',

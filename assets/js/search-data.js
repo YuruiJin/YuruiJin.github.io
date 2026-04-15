@@ -440,7 +440,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/en-us//assets/pdf/[LANG]/CV_Jin_Yurui.pdf", "_blank");
+          window.open("https://yuruijin.github.io/cv/", "_blank");
         },
       },{
         id: 'social-email',
