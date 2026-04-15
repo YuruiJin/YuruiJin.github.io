@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+{% if page.cv_pdf %}
+  {% if page.cv_pdf contains '://' %}
+    {% assign cv_pdf_url = page.cv_pdf %}
+  {% else %}
+    {% assign cv_pdf_url = page.cv_pdf | prepend: '/' | prepend: site.active_lang | prepend: '/assets/pdf/' | prepend: site.baseurl %}
+  {% endif %}
+  {% assign cv_pdf_filename = page.cv_pdf | split: '/' | last %}
+{% endif %}
 {% assign localized_resume = site.active_lang | prepend: 'resume_' %}
 {% unless site.data[localized_resume] %}
   <!-- use data from _data/LANG/cv.yml -->
@@ -9,18 +17,16 @@ layout: default
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: '/' | prepend: site.active_lang | prepend: '/assets/pdf/' | prepend: site.baseurl }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
+          <button
+            type="button"
+            class="btn btn-link float-right p-0 cv-protected-download text-reset"
+            data-cv-pdf-url="{{ cv_pdf_url }}"
+            data-cv-pdf-filename="{{ cv_pdf_filename }}"
+            aria-label="Download CV PDF"
+            title="Download CV PDF"
           >
             <i class="fa-solid fa-file-pdf"></i>
-          </a>
+          </button>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -61,18 +67,16 @@ layout: default
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: '/' | prepend: site.active_lang | prepend: '/assets/pdf/' | prepend: site.baseurl }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
+          <button
+            type="button"
+            class="btn btn-link float-right p-0 cv-protected-download text-reset"
+            data-cv-pdf-url="{{ cv_pdf_url }}"
+            data-cv-pdf-filename="{{ cv_pdf_filename }}"
+            aria-label="Download CV PDF"
+            title="Download CV PDF"
           >
             <i class="fa-solid fa-file-pdf"></i>
-          </a>
+          </button>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -129,3 +133,82 @@ layout: default
     </article>
   </div>
 {% endunless %}
+
+{% if page.cv_pdf %}
+  <div
+    class="modal fade"
+    id="cvDownloadProtectionModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="cvDownloadProtectionModalLabel"
+    aria-hidden="true"
+    data-cv-password-hash="{{ site.cv_password_hash | downcase }}"
+  >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cvDownloadProtectionModalLabel">
+            {% if site.active_lang == 'zh-cn' %}下载简历 PDF{% else %}Download CV PDF{% endif %}
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form id="cvDownloadProtectionForm">
+          <div class="modal-body">
+            <p class="small mb-3">
+              {% if site.active_lang == 'zh-cn' %}
+                请输入密码后下载已添加访问声明水印的 PDF。
+              {% else %}
+                Enter your password to download a watermarked PDF copy.
+              {% endif %}
+            </p>
+            <div class="form-group">
+              <label for="cvDownloadPasswordInput">
+                {%- if site.active_lang == 'zh-cn' %}密码{% else %}Password{% endif -%}
+              </label>
+              <input type="password" class="form-control" id="cvDownloadPasswordInput" autocomplete="off" required>
+            </div>
+            <div class="form-group mb-0">
+              <label for="cvDownloadVisitorInput">
+                {% if site.active_lang == 'zh-cn' %}姓名 / 机构（可选）{% else %}Name / Organization (optional){% endif %}
+              </label>
+              <input
+                type="text"
+                class="form-control"
+                id="cvDownloadVisitorInput"
+                placeholder="{% if site.active_lang == 'zh-cn' %}例如：Yurui Jin / University{% else %}e.g., Yurui Jin / University{% endif %}"
+              >
+            </div>
+            <div id="cvDownloadProtectionError" class="text-danger small mt-3 d-none" role="alert"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              {% if site.active_lang == 'zh-cn' %}取消{% else %}Cancel{% endif %}
+            </button>
+            <button type="submit" class="btn btn-primary" id="cvDownloadProtectionSubmit">
+              {% if site.active_lang == 'zh-cn' %}验证并下载{% else %}Verify & Download{% endif %}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #cvDownloadProtectionModal .modal-content {
+      background-color: var(--global-bg-color);
+      color: var(--global-text-color);
+      border-color: var(--global-divider-color);
+    }
+
+    #cvDownloadProtectionModal .form-control {
+      background-color: var(--global-bg-color);
+      color: var(--global-text-color);
+      border-color: var(--global-divider-color);
+    }
+  </style>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script defer src="{{ '/assets/js/cv-protection.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

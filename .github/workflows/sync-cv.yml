@@ -1,0 +1,74 @@
+name: Sync CV PDF across languages
+
+# Usage:
+# 1) Push updated assets/pdf/en-us/CV_Jin_Yurui.pdf to trigger automatic sync.
+# 2) Manually run via workflow_dispatch and provide `pdf_base64`.
+# 3) Trigger repository_dispatch with type `overleaf-sync` and client_payload.pdf_base64.
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/pdf/en-us/CV_Jin_Yurui.pdf"
+      - ".github/workflows/sync-cv.yml"
+  workflow_dispatch:
+    inputs:
+      pdf_base64:
+        description: "Optional base64-encoded CV PDF content"
+        required: false
+        type: string
+  repository_dispatch:
+    types:
+      - overleaf-sync
+
+permissions:
+  contents: write
+
+jobs:
+  sync-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Decode PDF payload (optional)
+        env:
+          PDF_BASE64_MANUAL: ${{ github.event.inputs.pdf_base64 }}
+          PDF_BASE64_DISPATCH: ${{ github.event.client_payload.pdf_base64 }}
+        run: |
+          python - <<'PY'
+          import base64
+          import os
+          from pathlib import Path
+
+          encoded = os.environ.get("PDF_BASE64_MANUAL") or os.environ.get("PDF_BASE64_DISPATCH") or ""
+          if not encoded:
+            print("No base64 payload provided. Using repository file as-is.")
+            raise SystemExit(0)
+
+          normalized = "".join(encoded.split())
+          pdf_bytes = base64.b64decode(normalized, validate=True)
+          output = Path("assets/pdf/en-us/CV_Jin_Yurui.pdf")
+          output.parent.mkdir(parents=True, exist_ok=True)
+          output.write_bytes(pdf_bytes)
+          print(f"Decoded payload into {output}")
+          PY
+
+      - name: Sync language copies
+        run: |
+          mkdir -p assets/pdf/zh-cn
+          cp assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf; then
+            echo "No CV PDF changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf
+          git commit -m "chore: sync CV PDF across language paths"
+          git push
