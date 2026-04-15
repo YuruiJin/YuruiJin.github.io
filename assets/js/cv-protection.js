@@ -125,7 +125,7 @@
       throw new Error(text.missingLib);
     }
 
-    const response = await fetch(pdfUrl);
+    const response = await fetch(pdfUrl, { cache: "no-store" });
     if (!response.ok) {
       throw new Error(text.fetchFailure);
     }
