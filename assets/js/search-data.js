@@ -440,7 +440,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/en-us//assets/pdf/[LANG]/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/en-us//assets/pdf/[LANG]/CV_Jin_Yurui.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -469,13 +469,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=R3GqrO8AAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
           id: 'lang-zh-cn',
