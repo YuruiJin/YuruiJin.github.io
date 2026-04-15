@@ -39,13 +39,14 @@ jobs:
 
       - name: Commit and push generated PDFs
         run: |
-          if [ -z "$(git status --porcelain -- assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf)" ]; then
+          git add assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf
+
+          if git diff --cached --quiet -- assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf; then
             echo "No generated PDF changes detected."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/pdf/en-us/CV_Jin_Yurui.pdf assets/pdf/zh-cn/CV_Jin_Yurui.pdf
           git commit -m "chore: update compiled bilingual resume PDFs"
           git push
