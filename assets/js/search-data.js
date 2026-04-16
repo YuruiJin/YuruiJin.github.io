@@ -92,6 +92,16 @@ ninja.data = [{
           description: "Designed and optimized suspension systems and robotic arm mechanisms for infantry and engineering robots in RoboMaster University Championship. Won National First Prize in 2022.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/robomaster_robot/";
+            },},{id: "projects-sentiment-analysis-in-film-reviews-based-on-bert",
+          title: 'Sentiment Analysis in Film Reviews Based on BERT',
+          description: "Developed a BERT-based sentiment analysis model with data augmentation techniques and improved interpretability using LIME and SHAP visualization tools.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sentiment_analysis_bert/";
+            },},{id: "projects-variable-stiffness-single-leg-mechanism-and-legged-robot-based-on-vsa",
+          title: 'Variable Stiffness Single-Leg Mechanism and Legged Robot Based on VSA',
+          description: "Enhanced robot jumping performance and energy efficiency by optimizing the position and direction of elastic components in a single-leg mechanism. Part of SURF research fellowship.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vsa_legged_robot/";
             },},{id: "projects-esp32-remote-temperature-amp-humidity-monitoring-system",
           title: 'ESP32 Remote Temperature &amp;amp; Humidity Monitoring System',
           description: "Developed a remote temperature and humidity monitoring system using ESP32 microcontroller with WiFi connectivity and MQTT protocol during R&amp;D internship.",
@@ -102,11 +112,31 @@ ninja.data = [{
           description: "A lightweight, compact variable stiffness gripper using dual leaf-spring mechanism for industrial grasping of objects with different hardness levels. Published at IEEE CASE 2023.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/variable_stiffness_gripper/";
+            },},{id: "projects-topology-optimization-and-fea-of-exoskeleton-thigh-component",
+          title: 'Topology Optimization and FEA of Exoskeleton Thigh Component',
+          description: "Performed structural design and ANSYS-based topology optimization and finite element analysis for an exoskeleton thigh component, improving meshing strategy for computational efficiency.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/exoskeleton_topology_optimization/";
             },},{id: "projects-intelligent-infant-inspection-robot",
           title: 'Intelligent Infant Inspection Robot',
           description: "Designed mechanical structure and enhanced robotic arm with protective housing for an intelligent infant monitoring robot. Achieved First Prize in Jiangsu Province and Second Prize in National Finals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/infant_inspection_robot/";
+            },},{id: "projects-mecanum-wheel-omnidirectional-mobile-robot-rmo-08",
+          title: 'Mecanum Wheel Omnidirectional Mobile Robot (RMO-08)',
+          description: "Led mechanical design, developed inverse kinematics solver for omnidirectional motion, and built embedded PID control system based on Arduino.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mecanum_wheel_robot/";
+            },},{id: "projects-trajectory-planning-optimization-for-6-dof-robotic-arm-based-on-rrt",
+          title: 'Trajectory Planning Optimization for 6-DOF Robotic Arm Based on RRT*',
+          description: "Improved RRT* algorithm within ROS MoveIt framework for robotic arm path planning. Designed post-processing optimization to smooth trajectories and reduce joint shock. Validated in Gazebo simulation. (Undergraduate Final Year Project)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/trajectory_planning_rrt/";
+            },},{id: "projects-autonomous-navigation-and-sensor-fusion-on-pololu-3pi-robot",
+          title: 'Autonomous Navigation and Sensor Fusion on Pololu 3pi Robot',
+          description: "Developing a fully autonomous mobile robot pipeline with sensor fusion, real-time waypoint navigation, and target manipulation on the Pololu 3pi platform.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pololu_3pi_navigation/";
             },},{
         id: 'social-cv',
         title: 'CV',

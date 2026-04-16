@@ -99,6 +99,16 @@ ninja.data = [{
           description: "在 RoboMaster 全国大学生机器人大赛中，负责步兵机器人悬架系统和工程机器人机械臂机构设计与优化。2022 年荣获全国一等奖。",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/robomaster_robot/";
+            },},{id: "projects-基于-bert-的电影评论情感分析",
+          title: '基于 BERT 的电影评论情感分析',
+          description: "开发基于 BERT 的情感分析模型，采用数据增强与重采样技术处理数据不平衡问题，使用 LIME 和 SHAP 工具提升模型可解释性。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/sentiment_analysis_bert/";
+            },},{id: "projects-基于可变刚度执行器的单腿机构与腿式机器人",
+          title: '基于可变刚度执行器的单腿机构与腿式机器人',
+          description: "通过优化单腿机构中弹性元件的位置与方向，提升机器人跳跃性能与能量效率。暑期本科生科研奖学金 (SURF) 项目。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/vsa_legged_robot/";
             },},{id: "projects-esp32-远程温湿度监控系统",
           title: 'ESP32 远程温湿度监控系统',
           description: "基于 ESP32 微控制器开发的远程温湿度监控系统，支持 WiFi 连接和 MQTT 协议，为研发实习期间完成的项目。",
@@ -109,11 +119,31 @@ ninja.data = [{
           description: "一种轻量紧凑的双板簧变刚度夹爪，用于工业场景中对不同硬度物体的自适应抓取。发表于 IEEE CASE 2023。",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/variable_stiffness_gripper/";
+            },},{id: "projects-外骨骼大腿部件拓扑优化与有限元分析",
+          title: '外骨骼大腿部件拓扑优化与有限元分析',
+          description: "基于 ANSYS 对外骨骼大腿部件进行拓扑优化与有限元分析，优化网格策略以提高收敛速度并减少计算资源消耗。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/exoskeleton_topology_optimization/";
             },},{id: "projects-智能婴儿巡检机器人",
           title: '智能婴儿巡检机器人',
           description: "设计机械结构并增强机器人手臂的保护外壳，用于智能婴儿监护机器人。获江苏省一等奖和全国二等奖。",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/infant_inspection_robot/";
+            },},{id: "projects-rmo-08-麦克纳姆轮全方位移动机器人",
+          title: 'RMO-08 麦克纳姆轮全方位移动机器人',
+          description: "负责机械设计与建模，开发逆运动学解算器实现全方位运动，基于 Arduino 搭建 PID 闭环控制系统。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/mecanum_wheel_robot/";
+            },},{id: "projects-基于-rrt-的六轴机械臂轨迹规划优化",
+          title: '基于 RRT* 的六轴机械臂轨迹规划优化',
+          description: "基于 MoveIt 框架改进 RRT* 算法，并设计后处理优化算法平滑轨迹、降低关节冲击。在 Gazebo 仿真环境中验证。（本科毕业设计）",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/trajectory_planning_rrt/";
+            },},{id: "projects-pololu-3pi-机器人自主导航与传感器融合",
+          title: 'Pololu 3pi 机器人自主导航与传感器融合',
+          description: "在 Pololu 3pi 平台上开发全自主移动机器人系统，实现传感器融合、实时路径导航与目标操控。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/pololu_3pi_navigation/";
             },},{
         id: 'social-cv',
         title: 'CV',
