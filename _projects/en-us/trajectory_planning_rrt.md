@@ -14,11 +14,11 @@ giscus_comments: true
 
 ## Overview
 
-This project improves the RRT* planner inside the ROS MoveIt framework for 6-DOF robotic arm trajectory planning. The goal is to improve path quality while preserving planning efficiency for practical manipulation tasks.
+This project improves the RRT\* planner inside the ROS MoveIt framework for 6-DOF robotic arm trajectory planning. The goal is to improve path quality while preserving planning efficiency for practical manipulation tasks.
 
 ## Method
 
-- Improved RRT* sampling and rewiring strategy in MoveIt for more stable path generation.
+- Improved RRT\* sampling and rewiring strategy in MoveIt for more stable path generation.
 - Designed a post-processing optimization pipeline to smooth trajectories and reduce joint shock.
 - Evaluated planning quality and execution feasibility in Gazebo simulation.
 
