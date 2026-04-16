@@ -94,11 +94,26 @@ ninja.data = [{
           section: "动态",},{id: "news-开始在布里斯托大学和西英格兰大学攻读机器人学硕士学位",
           title: '开始在布里斯托大学和西英格兰大学攻读机器人学硕士学位！🤖',
           description: "",
-          section: "动态",},{id: "projects-基于双板簧机构的变刚度夹爪",
+          section: "动态",},{id: "projects-robomaster-步兵与工程机器人设计",
+          title: 'RoboMaster 步兵与工程机器人设计',
+          description: "在 RoboMaster 全国大学生机器人大赛中，负责步兵机器人悬架系统和工程机器人机械臂机构设计与优化。2022 年荣获全国一等奖。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/robomaster_robot/";
+            },},{id: "projects-esp32-远程温湿度监控系统",
+          title: 'ESP32 远程温湿度监控系统',
+          description: "基于 ESP32 微控制器开发的远程温湿度监控系统，支持 WiFi 连接和 MQTT 协议，为研发实习期间完成的项目。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/esp32_monitoring_system/";
+            },},{id: "projects-基于双板簧机构的变刚度夹爪",
           title: '基于双板簧机构的变刚度夹爪',
           description: "一种轻量紧凑的双板簧变刚度夹爪，用于工业场景中对不同硬度物体的自适应抓取。发表于 IEEE CASE 2023。",
           section: "项目",handler: () => {
               window.location.href = "/zh-cn/projects/variable_stiffness_gripper/";
+            },},{id: "projects-智能婴儿巡检机器人",
+          title: '智能婴儿巡检机器人',
+          description: "设计机械结构并增强机器人手臂的保护外壳，用于智能婴儿监护机器人。获江苏省一等奖和全国二等奖。",
+          section: "项目",handler: () => {
+              window.location.href = "/zh-cn/projects/infant_inspection_robot/";
             },},{
         id: 'social-cv',
         title: 'CV',

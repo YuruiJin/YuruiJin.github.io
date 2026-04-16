@@ -87,11 +87,26 @@ ninja.data = [{
           section: "News",},{id: "news-started-msc-in-robotics-at-the-university-of-bristol-amp-amp-uwe-bristol",
           title: 'Started MSc in Robotics at the University of Bristol &amp;amp;amp; UWE Bristol! 🤖...',
           description: "",
-          section: "News",},{id: "projects-variable-stiffness-gripper-with-dual-leaf-spring-mechanism",
+          section: "News",},{id: "projects-robomaster-infantry-amp-engineering-robot-design",
+          title: 'RoboMaster Infantry &amp;amp; Engineering Robot Design',
+          description: "Designed and optimized suspension systems and robotic arm mechanisms for infantry and engineering robots in RoboMaster University Championship. Won National First Prize in 2022.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robomaster_robot/";
+            },},{id: "projects-esp32-remote-temperature-amp-humidity-monitoring-system",
+          title: 'ESP32 Remote Temperature &amp;amp; Humidity Monitoring System',
+          description: "Developed a remote temperature and humidity monitoring system using ESP32 microcontroller with WiFi connectivity and MQTT protocol during R&amp;D internship.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/esp32_monitoring_system/";
+            },},{id: "projects-variable-stiffness-gripper-with-dual-leaf-spring-mechanism",
           title: 'Variable Stiffness Gripper with Dual Leaf-Spring Mechanism',
           description: "A lightweight, compact variable stiffness gripper using dual leaf-spring mechanism for industrial grasping of objects with different hardness levels. Published at IEEE CASE 2023.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/variable_stiffness_gripper/";
+            },},{id: "projects-intelligent-infant-inspection-robot",
+          title: 'Intelligent Infant Inspection Robot',
+          description: "Designed mechanical structure and enhanced robotic arm with protective housing for an intelligent infant monitoring robot. Achieved First Prize in Jiangsu Province and Second Prize in National Finals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/infant_inspection_robot/";
             },},{
         id: 'social-cv',
         title: 'CV',
