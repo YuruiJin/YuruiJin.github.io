@@ -35,3 +35,5 @@ giscus_comments: true
 ## 荣誉
 
 - 获 School of Advanced Technology Group Winners 奖项。
+
+{% include figure.liquid path="assets/img/awards/surf_scholarship.jpg" caption="暑期本科生研究奖学金 (SURF) 证书。" class="img-fluid rounded z-depth-1" zoomable=true %}

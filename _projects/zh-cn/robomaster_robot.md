@@ -49,7 +49,29 @@ giscus_comments: true
 | 2022 | RoboMaster 全国总决赛 | 🏆 **全国一等奖** |
 | 2023 | RoboMaster 区域赛     | 全国二等奖        |
 
-{% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="RoboMaster 2022 全国一等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="2022 全国一等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_east_regional_first.jpg" caption="2022 东部赛区一等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_east_regional_second.jpg" caption="2023 东部赛区单项赛二等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_national_third.jpg" caption="2023 单项赛国赛三等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_university_alliance.jpg" caption="2023 高校联盟赛证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
 ## 演示视频
 

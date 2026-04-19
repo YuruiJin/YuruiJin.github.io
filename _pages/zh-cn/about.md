@@ -40,15 +40,46 @@ latest_posts:
 
 ## 荣誉与奖项
 
+### RoboMaster 机甲大师赛
+
 <div class="row">
   <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="RoboMaster 2022 全国一等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="2022 RoboMaster 超级对抗赛 全国一等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_east_regional_first.jpg" caption="2022 RoboMaster 超级对抗赛 东部赛区一等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_university_alliance.jpg" caption="2023 RoboMaster 高校联盟赛" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_east_regional_second.jpg" caption="2023 RoboMaster 东部赛区单项赛二等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_national_third.jpg" caption="2023 RoboMaster 单项赛国赛三等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+### 其他竞赛与荣誉
+
+<div class="row">
   <div class="col-sm-4 mt-3">
     {% include figure.liquid path="assets/img/awards/infant_robot_provincial_first.jpg" caption="智能婴儿巡检机器人 江苏省一等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm-4 mt-3">
     {% include figure.liquid path="assets/img/awards/infant_robot_national_second.jpg" caption="智能婴儿巡检机器人 全国二等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/surf_scholarship.jpg" caption="暑期本科生研究奖学金 (SURF)" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/iot_edge_platform_campus_second.jpg" caption="物联网边缘硬件平台校内二等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 
