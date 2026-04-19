@@ -3,18 +3,21 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
+        {% assign localized_first_name = site.data[site.active_lang].strings.first_name | default: site.first_name %}
+        {% assign localized_middle_name = site.data[site.active_lang].strings.middle_name | default: site.middle_name %}
+        {% assign localized_last_name = site.data[site.active_lang].strings.last_name | default: site.last_name %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
-            {% if site.first_name %}
+            {% if localized_first_name %}
               <span class="font-weight-bold">
-                {{- site.first_name -}}
+                {{- localized_first_name -}}
               </span>
             {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
+            {% if localized_middle_name %}
+              {{- localized_middle_name -}}
             {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
+            {% if localized_last_name %}
+              {{- localized_last_name -}}
             {% endif %}
           {% else %}
             {{- site.title -}}

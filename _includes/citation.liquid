@@ -4,8 +4,12 @@
 
 {{ site.data[site.active_lang].strings.citation.introduction }}
 
+{% assign localized_first_name = site.data[site.active_lang].strings.first_name | default: site.first_name %}
+{% assign localized_middle_name = site.data[site.active_lang].strings.middle_name | default: site.middle_name %}
+{% assign localized_last_name = site.data[site.active_lang].strings.last_name | default: site.last_name %}
+
 {% capture citation_quote -%}
-> {{ site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {% if site.title != 'blank' %}{{ site.title }}. {% endif %}{{ site.url }}.
+> {{ localized_last_name }}, {{ localized_first_name }}{% if localized_middle_name %} {{ localized_middle_name }}{% endif %} ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {% if site.title != 'blank' %}{{ site.title }}. {% endif %}{{ site.url }}.
 {%- endcapture %}
 {{ citation_quote | markdownify }}
 
@@ -13,9 +17,9 @@
 
 {% capture citation_code -%}
 ```bibtex
-@article{ {{- site.last_name | downcase }}{{ page.date | date: "%Y" }}{{ page.title | slugify }},
+@article{ {{- localized_last_name | downcase }}{{ page.date | date: "%Y" }}{{ page.title | slugify }},
   title   = { {{- page.title -}} },
-  author  = { {{- site.last_name }}, {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif -%}},
+  author  = { {{- localized_last_name }}, {{ localized_first_name }}{% if localized_middle_name %} {{ localized_middle_name }}{% endif -%}},
   {%- if site.title != 'blank' %}journal = { {{- site.title -}} },{% endif %}
   year    = { {{- page.date | date: "%Y" -}} },
   month   = { {{- page.date | date: "%b" -}} },

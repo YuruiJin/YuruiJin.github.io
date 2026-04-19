@@ -1,10 +1,13 @@
 {% capture footer_contents %}
+  {% assign localized_first_name = site.data[site.active_lang].strings.first_name | default: site.first_name %}
+  {% assign localized_middle_name = site.data[site.active_lang].strings.middle_name | default: site.middle_name %}
+  {% assign localized_last_name = site.data[site.active_lang].strings.last_name | default: site.last_name %}
   &copy;
   {{- site.data[site.active_lang].strings.footer.copyright }}
   {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
+  {{ localized_first_name }}
+  {{ localized_middle_name }}
+  {{ localized_last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
