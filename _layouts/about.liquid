@@ -5,8 +5,11 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        {% assign localized_first_name = site.data[site.active_lang].strings.first_name | default: site.first_name %}
+        {% assign localized_middle_name = site.data[site.active_lang].strings.middle_name | default: site.middle_name %}
+        {% assign localized_last_name = site.data[site.active_lang].strings.last_name | default: site.last_name %}
+        <span class="font-weight-bold">{{ localized_first_name }}</span> {{ localized_middle_name }}
+        {{ localized_last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
