@@ -26,6 +26,12 @@ giscus_comments: true
 <!-- TODO: Add figure -->
 <!-- {% include figure.liquid path="assets/img/projects/vsa_legged_robot/mechanism.jpg" caption="基于 VSA 的单腿机构设计与优化。" class="img-fluid rounded z-depth-1" zoomable=true %} -->
 
+## 相关专利
+
+- **专利号**：CN202310216442A
+- **名称**：基于可变刚度执行器的单腿机构与腿式机器人
+- **授权机构**：中国国家知识产权局
+
 ## 荣誉
 
 - 获 School of Advanced Technology Group Winners 奖项。

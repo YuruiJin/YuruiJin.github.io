@@ -37,3 +37,21 @@ latest_posts:
 在本科期间，我作为核心成员参与了 **RoboMaster 机甲大师赛**，负责步兵和工程机器人的悬挂系统与机械臂设计，并助力团队斩获多项国家级和华东地区奖项。此外，我也积极投入学术研究。我参与研发的一种双板簧变刚度软体夹爪的论文已被 _IEEE/ASME AIM_ 国际会议录用，同时我还拥有一项关于自适应管道打磨机器人的实用新型专利。
 
 我始终对探索创新的机器人前沿技术、解决现实世界中的工程挑战保持着极大的热情！
+
+## 荣誉与奖项
+
+<div class="row">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="RoboMaster 2022 全国一等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_provincial_first.jpg" caption="智能婴儿巡检机器人 江苏省一等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_national_second.jpg" caption="智能婴儿巡检机器人 全国二等奖" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+## 专利
+
+- **CN202310216442A** — 基于可变刚度执行器的单腿机构与腿式机器人相关专利。

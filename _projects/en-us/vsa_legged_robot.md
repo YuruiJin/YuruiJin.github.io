@@ -26,6 +26,12 @@ This SURF project studied a VSA-based single-leg mechanism and legged robot desi
 <!-- TODO: Add figure -->
 <!-- {% include figure.liquid path="assets/img/projects/vsa_legged_robot/mechanism.jpg" caption="VSA-based single-leg mechanism design and optimization." class="img-fluid rounded z-depth-1" zoomable=true %} -->
 
+## Related Patent
+
+- **Patent No.**：CN202310216442A
+- **Title**: Variable Stiffness Single-Leg Mechanism and Legged Robot
+- **Authority**: China National Intellectual Property Administration (CNIPA)
+
 ## Recognition
 
 - School of Advanced Technology Group Winners award.

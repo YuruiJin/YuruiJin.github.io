@@ -49,6 +49,8 @@ Key design features:
 | 2022 | RoboMaster National Finals      | 🏆 **National First Prize** |
 | 2023 | RoboMaster Regional Competition | National Second Prize       |
 
+{% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="RoboMaster 2022 National First Prize Certificate." class="img-fluid rounded z-depth-1" zoomable=true %}
+
 ## Demo
 
 <!-- TODO: Add competition video here -->
