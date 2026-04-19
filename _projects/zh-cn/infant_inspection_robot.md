@@ -44,6 +44,15 @@ giscus_comments: true
 | 江苏省赛   | 🥇 **一等奖** |
 | 全国总决赛 | 🥈 **二等奖** |
 
+<div class="row">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_provincial_first.jpg" caption="江苏省一等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_national_second.jpg" caption="全国二等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
 ## 演示视频
 
 <!-- TODO: 添加演示视频 -->

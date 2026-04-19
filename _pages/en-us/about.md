@@ -37,3 +37,21 @@ My research interests lie in robot motion planning, control systems, and mechani
 During my undergraduate studies, I actively participated in the **RoboMaster University Championship**, where I designed suspension systems and robotic arms, leading our team to win multiple national and regional awards. Furthermore, I have been deeply involved in academic research. I co-authored a paper on a variable stiffness gripper which was accepted by the _IEEE/ASME AIM_ conference, and I also hold a patent for an adaptive pipeline polishing robot.
 
 I am always eager to explore innovative robotic solutions and tackle real-world engineering challenges!
+
+## Honors & Awards
+
+<div class="row">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="RoboMaster 2022 National First Prize" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_provincial_first.jpg" caption="Infant Inspection Robot — Jiangsu Province First Prize" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_national_second.jpg" caption="Infant Inspection Robot — National Second Prize" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+## Patents
+
+- **CN202310216442A** — Patent related to variable stiffness actuator-based single-leg mechanism and legged robot.

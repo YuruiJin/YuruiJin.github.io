@@ -49,6 +49,8 @@ giscus_comments: true
 | 2022 | RoboMaster 全国总决赛 | 🏆 **全国一等奖** |
 | 2023 | RoboMaster 区域赛     | 全国二等奖        |
 
+{% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="RoboMaster 2022 全国一等奖证书。" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 ## 演示视频
 
 <!-- TODO: 添加比赛视频 -->

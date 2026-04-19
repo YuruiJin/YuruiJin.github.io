@@ -53,6 +53,10 @@
       institution: 19th IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2024)
       year: 2024
       description: Co-authored paper on a novel soft robotic gripper design.
+    - title: "Variable Stiffness Single-Leg Mechanism and Legged Robot (Patent: CN202310216442A)"
+      institution: China National Intellectual Property Administration (CNIPA)
+      year: 2023
+      description: Invention patent on optimizing elastic component placement in a VSA-based single-leg mechanism.
 
 - title: Skills
   type: list
