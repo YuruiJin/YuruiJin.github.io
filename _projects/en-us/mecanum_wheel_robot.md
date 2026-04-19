@@ -29,3 +29,7 @@ This project delivered a reconfigurable Mecanum wheel mobile robot prototype (RM
 ## Outcome
 
 The final prototype passed predefined performance tests and demonstrated robust omnidirectional motion control.
+
+## Demo
+
+{% include video.liquid provider="bilibili" id="BV1Po4y1G7jt" caption="RMO-08 Mecanum wheel omnidirectional mobile robot demo." %}

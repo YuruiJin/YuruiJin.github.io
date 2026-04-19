@@ -29,3 +29,7 @@ giscus_comments: true
 ## 项目成果
 
 原型机通过预设性能测试，验证了全向运动控制的稳定性与可实现性。
+
+## 演示视频
+
+{% include video.liquid provider="bilibili" id="BV1Po4y1G7jt" caption="RMO-08 麦克纳姆轮全方位移动机器人演示。" %}
