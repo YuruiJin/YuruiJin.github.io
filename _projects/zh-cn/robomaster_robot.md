@@ -73,10 +73,11 @@ giscus_comments: true
   </div>
 </div>
 
-## 演示视频
+## 比赛视频
 
-<!-- TODO: 添加比赛视频 -->
-<!-- {% include video.liquid provider="bilibili" id="YOUR_BV_NUMBER" caption="RoboMaster 比赛精彩片段。" %} -->
+{% include video.liquid provider="bilibili" id="BV1Ah411T7aS" caption="RoboMaster 比赛视频 1。" %}
+
+{% include video.liquid provider="bilibili" id="BV1b8411R7jz" caption="RoboMaster 比赛视频 2。" %}
 
 ## 资源
 

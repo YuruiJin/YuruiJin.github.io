@@ -73,10 +73,11 @@ Key design features:
   </div>
 </div>
 
-## Demo
+## Competition Videos
 
-<!-- TODO: Add competition video here -->
-<!-- {% include video.liquid provider="bilibili" id="YOUR_BV_NUMBER" caption="RoboMaster competition highlights." %} -->
+{% include video.liquid provider="bilibili" id="BV1Ah411T7aS" caption="RoboMaster competition video 1." %}
+
+{% include video.liquid provider="bilibili" id="BV1b8411R7jz" caption="RoboMaster competition video 2." %}
 
 ## Resources
 
