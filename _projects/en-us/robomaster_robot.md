@@ -50,23 +50,23 @@ Key design features:
 | 2023 | RoboMaster Regional Competition | National Second Prize       |
 
 <div class="row">
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="2022 National First Prize." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_national_first.jpg" caption="2022 National First Prize." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/robomaster_2022_east_regional_first.jpg" caption="2022 East Regional First Prize." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2022_east_regional_first.jpg" caption="2022 East Regional First Prize." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/robomaster_2023_east_regional_second.jpg" caption="2023 East Regional Second Prize." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_east_regional_second.jpg" caption="2023 East Regional Second Prize." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
 </div>
 
 <div class="row">
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/robomaster_2023_national_third.jpg" caption="2023 National Third Prize." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_national_third.jpg" caption="2023 National Third Prize." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/robomaster_2023_university_alliance.jpg" caption="2023 University Alliance." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/robomaster_2023_university_alliance.jpg" caption="2023 University Alliance." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
 </div>
 
