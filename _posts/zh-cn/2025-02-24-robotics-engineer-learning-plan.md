@@ -5,6 +5,7 @@ date: 2025-02-24 12:00:00
 description: 推荐知乎博主 YY硕 的文章《机器人工程师学习计划》，系统梳理机器人领域的核心知识体系。
 tags: robotics learning career
 categories: reading-notes
+giscus_comments: true
 ---
 
 如果你正在思考如何系统地成长为一名机器人工程师，我强烈推荐知乎博主 **YY硕** 的文章 [**机器人工程师学习计划**](https://zhuanlan.zhihu.com/p/22266788)。这篇文章提供了目前我见过的最全面、最系统的机器人领域学习路线图之一。

@@ -6,6 +6,7 @@ description: 这是包含 typograms 代码的示例效果
 tags: formatting diagrams
 categories: sample-posts
 typograms: true
+giscus_comments: true
 published: false
 ---
 

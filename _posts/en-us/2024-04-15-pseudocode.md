@@ -6,6 +6,7 @@ description: this is what included pseudo code could look like
 tags: formatting code
 categories: sample-posts
 pseudocode: true
+giscus_comments: true
 published: false
 ---
 

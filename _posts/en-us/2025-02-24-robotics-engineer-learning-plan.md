@@ -5,6 +5,7 @@ date: 2025-02-24 12:00:00
 description: A recommended reading on the essential knowledge areas for aspiring robotics engineers, based on the Zhihu article by YY硕.
 tags: robotics learning career
 categories: reading-notes
+giscus_comments: true
 ---
 
 If you are wondering how to systematically build your skills as a robotics engineer, I highly recommend the Zhihu article [**机器人工程师学习计划**](https://zhuanlan.zhihu.com/p/22266788) by blogger **YY硕**. Although written in Chinese, it provides one of the most comprehensive and well-organized roadmaps I have come across for anyone entering the field of robotics.

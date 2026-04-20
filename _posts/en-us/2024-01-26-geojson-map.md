@@ -6,6 +6,7 @@ description: this is what included geojson code could look like
 tags: formatting charts maps
 categories: sample-posts
 map: true
+giscus_comments: true
 published: false
 ---
 

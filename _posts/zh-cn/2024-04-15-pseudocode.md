@@ -6,6 +6,7 @@ description: 这是包含伪代码的示例效果
 tags: formatting code
 categories: sample-posts
 pseudocode: true
+giscus_comments: true
 published: false
 ---
 

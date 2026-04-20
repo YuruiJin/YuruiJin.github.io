@@ -6,6 +6,7 @@ description: 这是包含 geojson 代码的示例效果
 tags: formatting charts maps
 categories: sample-posts
 map: true
+giscus_comments: true
 published: false
 ---
 
