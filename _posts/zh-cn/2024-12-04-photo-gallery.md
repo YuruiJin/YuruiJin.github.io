@@ -11,6 +11,7 @@ images:
   photoswipe: true
   spotlight: true
   venobox: true
+giscus_comments: true
 published: false
 ---
 

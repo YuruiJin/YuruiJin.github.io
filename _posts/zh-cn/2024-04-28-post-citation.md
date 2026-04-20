@@ -6,6 +6,7 @@ description: 这是可被引用的文章的示例效果
 tags: formatting citation
 categories: sample-posts
 citation: true
+giscus_comments: true
 published: false
 ---
 

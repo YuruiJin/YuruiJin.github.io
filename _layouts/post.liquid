@@ -27,8 +27,6 @@ layout: default
         , {{ site.data[site.active_lang].strings.post.last_updated }}
         {% include date_format.liquid format='long' date=page.last_updated -%}
       {%- endif %}
-      &nbsp; &middot; &nbsp;
-      <span><i class="fa-solid fa-eye fa-sm"></i> <span id="busuanzi_value_page_pv"></span></span>
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">

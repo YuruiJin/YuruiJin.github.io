@@ -6,6 +6,7 @@ description: 带有 disqus 评论的博客文章示例
 tags: comments
 categories: sample-posts external-services
 disqus_comments: true
+giscus_comments: true
 related_posts: false
 published: false
 ---

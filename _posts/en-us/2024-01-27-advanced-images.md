@@ -9,6 +9,7 @@ thumbnail: assets/img/9.jpg
 images:
   compare: true
   slider: true
+giscus_comments: true
 published: false
 ---
 

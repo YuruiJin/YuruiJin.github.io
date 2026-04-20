@@ -6,6 +6,7 @@ description: this is what a post that can be cited looks like
 tags: formatting citation
 categories: sample-posts
 citation: true
+giscus_comments: true
 published: false
 ---
 
