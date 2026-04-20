@@ -7,7 +7,7 @@ first_name: Yurui
 middle_name:
 last_name: Jin
 keywords: robotics, motion-planning, control-systems, mechanical-design, ROS, embedded-systems # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: Favicon.jpg # the image used as the favicon (from /assets/img/)
 
 url: https://yuruijin.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
