@@ -3,7 +3,7 @@ page_id: infant_inspection_robot
 layout: page
 title: "智能婴儿巡检机器人"
 description: "设计机械结构并增强机器人手臂的保护外壳，用于智能婴儿监护机器人。获江苏省一等奖和全国二等奖。"
-img: assets/img/projects/infant_inspection_robot/cover.jpg
+img: assets/img/projects/infant_inspection_robot/Intelligent infant inspection robot_coverpages.png
 importance: 3
 category: robot-system
 tags: [机器人, SolidWorks, 机械设计, 控制系统]
