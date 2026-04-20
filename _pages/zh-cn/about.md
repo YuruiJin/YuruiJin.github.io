@@ -10,7 +10,7 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>科学与工程学部</p>
     <p>布里斯托大学</p>
