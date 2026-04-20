@@ -36,4 +36,8 @@ This SURF project studied a VSA-based single-leg mechanism and legged robot desi
 
 - School of Advanced Technology Group Winners award.
 
-{% include figure.liquid path="assets/img/awards/surf_scholarship.jpg" caption="Summer Undergraduate Research Fellowship (SURF) Certificate." class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row">
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/surf_scholarship.jpg" caption="Summer Undergraduate Research Fellowship (SURF) Certificate." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
+  </div>
+</div>

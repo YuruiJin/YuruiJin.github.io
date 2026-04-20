@@ -45,11 +45,11 @@ The project achieved **First Prize in Jiangsu Province** and **Second Prize in t
 | National Finals  | 🥈 **Second Prize** |
 
 <div class="row">
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/infant_robot_provincial_first.jpg" caption="Jiangsu Province First Prize." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_provincial_first.jpg" caption="Jiangsu Province First Prize." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
-  <div class="col-sm-4 mt-3">
-    {% include figure.liquid path="assets/img/awards/infant_robot_national_second.jpg" caption="National Second Prize." class="img-fluid rounded z-depth-1" zoomable=true %}
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid path="assets/img/awards/infant_robot_national_second.jpg" caption="National Second Prize." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
 </div>
 
