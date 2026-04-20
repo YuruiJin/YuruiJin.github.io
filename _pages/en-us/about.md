@@ -10,7 +10,7 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>Faculty of Science and Engineering</p>
     <p>University of Bristol</p>
