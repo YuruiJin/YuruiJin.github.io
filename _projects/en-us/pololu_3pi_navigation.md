@@ -29,3 +29,7 @@ This ongoing project develops a fully autonomous pipeline on the Pololu 3pi plat
 ## Current Status
 
 - In progress with iterative validation on navigation reliability and manipulation success.
+
+## Resources
+
+- For CAD models or further technical details, please feel free to contact me via email.

@@ -32,3 +32,7 @@ Performance testing in Gazebo focused on trajectory smoothness, joint impact red
 ## Notes
 
 - Undergraduate Final Year Project
+
+## Resources
+
+- For CAD models or further technical details, please feel free to contact me via email.

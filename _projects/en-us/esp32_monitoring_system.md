@@ -54,4 +54,4 @@ During my R&D internship at **Yicheng Rong Chuang Information Technology** (2023
 
 ## Resources
 
-- For source code or further details, please feel free to contact me via email.
+- For CAD models or further technical details, please feel free to contact me via email.

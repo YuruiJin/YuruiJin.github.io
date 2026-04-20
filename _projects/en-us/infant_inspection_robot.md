@@ -60,4 +60,4 @@ The project achieved **First Prize in Jiangsu Province** and **Second Prize in t
 
 ## Resources
 
-- For further technical details, please feel free to contact me via email.
+- For CAD models or further technical details, please feel free to contact me via email.

@@ -28,3 +28,7 @@ This project developed a BERT-based sentiment analysis model for movie reviews, 
 ## Outcome
 
 The final pipeline improved predictive robustness on imbalanced data while providing more transparent model behavior analysis.
+
+## Resources
+
+- For CAD models or further technical details, please feel free to contact me via email.

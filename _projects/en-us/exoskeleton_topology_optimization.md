@@ -28,3 +28,7 @@ This project focused on structural design and ANSYS-based optimization of an exo
 ## Outcome
 
 The optimized workflow enabled more efficient structural iterations for exoskeleton component design.
+
+## Resources
+
+- For CAD models or further technical details, please feel free to contact me via email.
