@@ -173,6 +173,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/yuruijin", "_blank");
         },
       },{
+        id: 'social-quora',
+        title: 'Quora',
+        section: '社交账号',
+        handler: () => {
+          window.open("https://www.quora.com/profile/Yurui-Jin", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: '社交账号',
@@ -185,6 +192,13 @@ ninja.data = [{
         section: '社交账号',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=R3GqrO8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-zhihu',
+        title: 'Zhihu',
+        section: '社交账号',
+        handler: () => {
+          window.open("https://www.zhihu.com/people/ai-fei-de-yi-sen", "_blank");
         },
       },{
           id: 'lang-en-us',
