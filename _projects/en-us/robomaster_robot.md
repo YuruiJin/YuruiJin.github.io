@@ -3,7 +3,7 @@ page_id: robomaster_robot
 layout: page
 title: "RoboMaster Infantry & Engineering Robot Design"
 description: "Designed and optimized suspension systems and robotic arm mechanisms for infantry and engineering robots in RoboMaster University Championship. Won National First Prize in 2022."
-img: assets/img/projects/robomaster_robot/cover.jpg
+img: assets/img/projects/robomaster_robot/Robomaster_cover page.png
 importance: 2
 category: competition
 tags: [robotics, mechanical-design, SolidWorks, suspension, RoboMaster]

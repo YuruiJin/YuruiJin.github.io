@@ -3,7 +3,7 @@ page_id: robomaster_robot
 layout: page
 title: "RoboMaster 步兵与工程机器人设计"
 description: "在 RoboMaster 全国大学生机器人大赛中，负责步兵机器人悬架系统和工程机器人机械臂机构设计与优化。2022 年荣获全国一等奖。"
-img: assets/img/projects/robomaster_robot/cover.jpg
+img: assets/img/projects/robomaster_robot/Robomaster_cover page.png
 importance: 2
 category: competition
 tags: [机器人, 机械设计, SolidWorks, 悬架, RoboMaster]
