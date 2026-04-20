@@ -33,7 +33,7 @@ linkedin_username: yuruijin # TODO: update with your actual LinkedIn username
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
-# quora_username: # your Quora username
+quora_username: Yurui-Jin # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: R3GqrO8AAAAJ # your Google Scholar ID
@@ -56,3 +56,7 @@ scholar_userid: R3GqrO8AAAAJ # your Google Scholar ID
 #   logo: # can be png, svg, jpg
 #   title: Custom Social
 #   url:
+zhihu:
+  logo: zhihu.svg
+  title: 知乎
+  url: https://www.zhihu.com/people/ai-fei-de-yi-sen
