@@ -41,3 +41,7 @@ This SURF project studied a VSA-based single-leg mechanism and legged robot desi
     {% include figure.liquid path="assets/img/awards/surf_scholarship.jpg" caption="Summer Undergraduate Research Fellowship (SURF) Certificate." class="img-fluid rounded z-depth-1 w-75" zoomable=true %}
   </div>
 </div>
+
+## Resources
+
+- For CAD models or further technical details, please feel free to contact me via email.

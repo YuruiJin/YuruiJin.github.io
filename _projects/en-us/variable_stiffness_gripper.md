@@ -76,7 +76,6 @@ The demonstration video was originally submitted as supplementary material with 
 
 {% bibliography --cited %}
 
-## Code & Resources
+## Resources
 
-- **Paper**: <a href="https://doi.org/10.1109/CASE56687.2023.10260296">IEEE Xplore</a>
 - For CAD models or further technical details, please feel free to contact me via email.

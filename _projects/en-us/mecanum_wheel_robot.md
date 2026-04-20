@@ -33,3 +33,7 @@ The final prototype passed predefined performance tests and demonstrated robust 
 ## Demo
 
 {% include video.liquid provider="bilibili" id="BV1Po4y1G7jt" caption="RMO-08 Mecanum wheel omnidirectional mobile robot demo." %}
+
+## Resources
+
+- For CAD models or further technical details, please feel free to contact me via email.

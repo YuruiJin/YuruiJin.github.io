@@ -33,3 +33,18 @@ giscus_comments: true
 ## 演示视频
 
 {% include video.liquid provider="bilibili" id="BV1Po4y1G7jt" caption="RMO-08 麦克纳姆轮全方位移动机器人演示。" %}
+
+## 资源
+
+<div class="card mt-3">
+  <div class="card-body">
+    <h5 class="card-title"><i class="fas fa-folder-open"></i> 项目文件下载</h5>
+    <p class="card-text">CAD 模型、技术文档等项目资料已上传至百度网盘。</p>
+    <a href="https://pan.baidu.com/s/xxxxx" class="btn btn-primary btn-sm" target="_blank">
+      <i class="fas fa-cloud-download-alt"></i> 百度网盘下载
+    </a>
+    <span class="ms-2 text-muted">提取码：<code>abcd</code></span>
+  </div>
+</div>
+
+如有其他需求，欢迎通过邮件与我联系。
