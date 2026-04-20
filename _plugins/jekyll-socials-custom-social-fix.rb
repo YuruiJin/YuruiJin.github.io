@@ -2,6 +2,12 @@
 
 module Jekyll
   class SocialLinksTag
+    CUSTOM_SOCIAL_LOGO_BASE = '/assets/img/'.freeze
+
+    # Patch jekyll-socials custom social rendering for local logo files.
+    # The upstream gem treats `| relative_url` as a Ruby expression, which
+    # raises at build time. Here we keep the original behavior for built-in
+    # socials and only normalize local custom logo paths.
     def render(context)
       socials = context.registers[:site].data['socials'] || []
       socials.filter_map do |social|
@@ -35,7 +41,7 @@ module Jekyll
                      elsif social[1]['logo'].start_with?('/')
                        baseurl + social[1]['logo']
                      else
-                       baseurl + '/assets/img/' + social[1]['logo']
+                       baseurl + CUSTOM_SOCIAL_LOGO_BASE + social[1]['logo']
                      end
           "<a href='#{social[1]['url']}' title='#{social[1]['title']}'><img src='#{logo_url}' alt='#{social[1]['title']}'></a>"
         end
