@@ -4,6 +4,7 @@
 
 body {
   padding-bottom: 70px;
+  font-family: "Source Sans 3", sans-serif;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -15,6 +16,26 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif 4", serif;
+}
+
+.navbar,
+.nav-link,
+button,
+.btn,
+label,
+input,
+select,
+textarea {
+  font-family: "Source Sans 3", sans-serif;
 }
 
 body.fixed-top-nav {
