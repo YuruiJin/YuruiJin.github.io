@@ -55,14 +55,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "Bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "post-reading-note-a-learning-plan-for-robotics-engineers",
+        },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "post-reading-note-a-learning-plan-for-robotics-engineers",
         
           title: "Reading Note: A Learning Plan for Robotics Engineers",
         

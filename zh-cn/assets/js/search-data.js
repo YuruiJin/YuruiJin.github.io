@@ -62,14 +62,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/people/";
           },
-        },{id: "dropdown-书架",
-              title: "书架",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/zh-cn/books/";
-              },
-            },{id: "post-读书笔记-机器人工程师学习计划",
+        },{id: "nav-书架",
+          title: "书架",
+          description: "",
+          section: "导航菜单",
+          handler: () => {
+            window.location.href = "/zh-cn/books/";
+          },
+        },{id: "post-读书笔记-机器人工程师学习计划",
         
           title: "读书笔记：机器人工程师学习计划",
         
