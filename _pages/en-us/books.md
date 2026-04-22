@@ -3,7 +3,8 @@ page_id: books
 layout: book-shelf
 title: Bookshelf
 permalink: /books/
-nav: false
+nav: true
+nav_order: 8
 collection: books
 lang: en-us
 ---
