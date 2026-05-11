@@ -2,6 +2,7 @@
 publish: true
 target: blog
 layout: post
+giscus_comments: true
 title: 从 WhynotTV 学到的科研成长方法论：一个机器人硕士的观察
 date: 2026-05-11
 lang: zh-cn

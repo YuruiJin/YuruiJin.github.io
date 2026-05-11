@@ -2,6 +2,7 @@
 publish: true
 target: blog
 layout: post
+giscus_comments: true
 lang: en-us
 page_id: whynottv-growth-models
 title: "Learning Growth Models from WhynotTV: Notes from a Robotics MSc Student"
