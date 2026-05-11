@@ -63,7 +63,7 @@ pagination:
 {% assign current_lang = page.lang %}
 {% assign current_lang_path = "_posts/" | append: current_lang | append: "/" %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" | where: "lang", page.lang %}
+{% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -113,9 +113,9 @@ pagination:
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts | where: "lang", page.lang %}
+      {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts | where: "lang", page.lang %}
+      {% assign postlist = site.posts %}
     {% endif %}
 
     {% for post in postlist %}
