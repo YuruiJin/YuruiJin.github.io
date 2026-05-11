@@ -1,5 +1,6 @@
 ---
 page_id: blog
+lang: en-us
 layout: default
 permalink: /blog/
 title: Blog
@@ -59,7 +60,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "true" | where: "lang", page.lang %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -107,9 +108,9 @@ pagination:
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
+      {% assign postlist = paginator.posts | where: "lang", page.lang %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site.posts | where: "lang", page.lang %}
     {% endif %}
 
     {% for post in postlist %}
