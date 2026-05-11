@@ -80,6 +80,17 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2026/learning-growth-models-from-whynottv/";
           
         },
+      },{id: "post-learning-growth-models-from-whynottv-notes-from-a-robotics-msc-student",
+        
+          title: "Learning Growth Models from WhynotTV: Notes from a Robotics MSc Student",
+        
+        description: "How I turn interview-based content into a personal system for research growth, PhD preparation, and long-term capability building.",
+        section: "文章",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2026/learning-growth-models-from-whynottv/";
+          
+        },
       },{id: "post-读书笔记-机器人工程师学习计划",
         
           title: "读书笔记：机器人工程师学习计划",
