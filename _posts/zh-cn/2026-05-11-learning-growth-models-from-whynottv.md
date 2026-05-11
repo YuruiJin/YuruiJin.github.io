@@ -2,10 +2,10 @@
 publish: true
 target: blog
 layout: post
-title: "从 WhynotTV 学到的科研成长方法论：一个机器人硕士的观察"
+title: 从 WhynotTV 学到的科研成长方法论：一个机器人硕士的观察
 date: 2026-05-11
 slug: learning-growth-models-from-whynottv
-description: "我如何把人物访谈内容转化为科研成长、PhD 申请和长期能力建设的方法论。"
+description: 我如何把人物访谈内容转化为科研成长、PhD 申请和长期能力建设的方法论。
 tags:
   - whynottv
   - growth
