@@ -69,7 +69,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/books/";
           },
-        },{id: "post-读书笔记-机器人工程师学习计划",
+        },{id: "post-从-whynottv-学到的科研成长方法论-一个机器人硕士的观察",
+        
+          title: "从 WhynotTV 学到的科研成长方法论：一个机器人硕士的观察",
+        
+        description: "我如何把人物访谈内容转化为科研成长、PhD 申请和长期能力建设的方法论。",
+        section: "文章",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2026/learning-growth-models-from-whynottv/";
+          
+        },
+      },{id: "post-读书笔记-机器人工程师学习计划",
         
           title: "读书笔记：机器人工程师学习计划",
         
