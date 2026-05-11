@@ -7,6 +7,7 @@ page_id: whynottv-growth-models
 title: "Learning Growth Models from WhynotTV: Notes from a Robotics MSc Student"
 date: 2026-05-11
 slug: learning-growth-models-from-whynottv
+permalink: /blog/2026/learning-growth-models-from-whynottv/
 description: "How I turn interview-based content into a personal system for research growth, PhD preparation, and long-term capability building."
 tags:
   - whynottv

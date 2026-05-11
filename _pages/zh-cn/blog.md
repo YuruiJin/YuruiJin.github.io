@@ -60,6 +60,9 @@ pagination:
   </div>
   {% endif %}
 
+{% assign current_lang = page.lang %}
+{% assign current_lang_path = "_posts/" | append: current_lang | append: "/" %}
+
 {% assign featured_posts = site.posts | where: "featured", "true" | where: "lang", page.lang %}
 {% if featured_posts.size > 0 %}
 <br>
@@ -68,6 +71,7 @@ pagination:
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
+{% if post.lang == current_lang or post.path contains current_lang_path %}
 <div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
@@ -98,6 +102,7 @@ pagination:
             </div>
           </a>
         </div>
+      {% endif %}
       {% endfor %}
       </div>
     </div>
@@ -114,6 +119,7 @@ pagination:
     {% endif %}
 
     {% for post in postlist %}
+    {% if post.lang == current_lang or post.path contains current_lang_path %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -189,6 +195,7 @@ pagination:
 {% endif %}
     </li>
 
+    {% endif %}
     {% endfor %}
 
   </ul>

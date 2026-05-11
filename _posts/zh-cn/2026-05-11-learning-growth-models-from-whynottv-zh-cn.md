@@ -4,7 +4,10 @@ target: blog
 layout: post
 title: 从 WhynotTV 学到的科研成长方法论：一个机器人硕士的观察
 date: 2026-05-11
-slug: learning-growth-models-from-whynottv
+lang: zh-cn
+page_id: whynottv-growth-models
+slug: learning-growth-models-from-whynottv-zh-cn
+permalink: /blog/2026/learning-growth-models-from-whynottv-zh-cn/
 description: 我如何把人物访谈内容转化为科研成长、PhD 申请和长期能力建设的方法论。
 tags:
   - whynottv
@@ -13,7 +16,6 @@ tags:
   - robotics
 categories:
   - reflection
-lang: zh-cn
 ---
 
 ## 为什么我开始系统看 WhynotTV
