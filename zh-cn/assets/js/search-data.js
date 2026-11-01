@@ -20,33 +20,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh-cn/";
     },
-  },{id: "nav-博客",
-          title: "博客",
-          description: "一个简洁的学术个人主页主题",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/zh-cn/blog/";
-          },
-        },{id: "nav-论文发表",
-          title: "论文发表",
-          description: "按类别反向时间顺序排列的论文列表。由 jekyll-scholar 自动生成。",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/zh-cn/publications/";
-          },
-        },{id: "nav-项目",
+  },{id: "nav-项目",
           title: "项目",
           description: "个人项目作品集展示。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/projects/";
           },
-        },{id: "nav-代码仓库",
-          title: "代码仓库",
-          description: "我的 GitHub 代码仓库与开源贡献。",
+        },{id: "nav-论文发表",
+          title: "论文发表",
+          description: "金榆瑞在机器人、柔顺机构与控制领域的论文和预印本。",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/zh-cn/repositories/";
+            window.location.href = "/zh-cn/publications/";
           },
         },{id: "nav-简历",
           title: "简历",
@@ -54,6 +40,20 @@ ninja.data = [{
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/cv/";
+          },
+        },{id: "nav-博客",
+          title: "博客",
+          description: "一个简洁的学术个人主页主题",
+          section: "导航菜单",
+          handler: () => {
+            window.location.href = "/zh-cn/blog/";
+          },
+        },{id: "nav-代码仓库",
+          title: "代码仓库",
+          description: "我的 GitHub 代码仓库与开源贡献。",
+          section: "导航菜单",
+          handler: () => {
+            window.location.href = "/zh-cn/repositories/";
           },
         },{id: "nav-团队成员",
           title: "团队成员",
