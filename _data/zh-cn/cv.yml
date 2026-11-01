@@ -50,9 +50,9 @@
   type: time_table
   contents:
     - title: A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism (双板簧变刚度夹爪)
-      institution: 第19届 IEEE/ASME 先进智能机电系统国际会议 (AIM 2024)
-      year: 2024
-      description: 参与研发双板簧变刚度软体夹爪并发表顶会论文。
+      institution: 2023 IEEE 第19届自动化科学与工程国际会议 (CASE)
+      year: 2023
+      description: 参与双板簧变刚度夹爪的机构设计、原型制作与论文撰写，论文发表于 IEEE CASE 2023。
     - title: "基于可变刚度执行器的单腿机构与腿式机器人（专利号：CN202310216442A）"
       institution: 中国国家知识产权局
       year: 2023

@@ -2,6 +2,9 @@
 page_id: vsa_legged_robot
 layout: page
 title: "Variable Stiffness Single-Leg Mechanism and Legged Robot Based on VSA"
+card_title: "Variable stiffness leg mechanism"
+card_description: "Elastic component placement and stiffness tuning for jumping performance and energy efficiency."
+cover_label: "VSA"
 description: "Enhanced robot jumping performance and energy efficiency by optimizing the position and direction of elastic components in a single-leg mechanism. Part of SURF research fellowship."
 img: assets/img/projects/vsa_legged_robot/cover.jpg
 importance: 2

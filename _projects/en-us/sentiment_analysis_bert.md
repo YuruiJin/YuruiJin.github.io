@@ -2,10 +2,13 @@
 page_id: sentiment_analysis_bert
 layout: page
 title: "Sentiment Analysis in Film Reviews Based on BERT"
+card_title: "BERT sentiment analysis"
+card_description: "Film review sentiment analysis with data augmentation and LIME/SHAP model interpretation."
+cover_label: "BERT"
 description: "Developed a BERT-based sentiment analysis model with data augmentation techniques and improved interpretability using LIME and SHAP visualization tools."
 img: assets/img/projects/sentiment_analysis_bert/cover.jpg
 importance: 4
-category: algorithm
+category: algorithm-perception
 tags: [machine-learning, NLP, BERT, sentiment-analysis, Python]
 related_publications: false
 date: 2023-02-01

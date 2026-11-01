@@ -7,7 +7,7 @@
       {% if content.value %}
         <td class="p-1 pl-2 font-weight-light text">
           {% if content.value contains '@' %}
-            <a href="mailto:{{ content.value | encode_email }}">{{ content.value | encode_email }}</a>
+            <a href="mailto:{{ content.value | encode_email }}">{{ content.value | escape }}</a>
           {% else %}
             {{ content.value }}
           {% endif %}

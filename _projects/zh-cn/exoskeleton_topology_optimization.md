@@ -2,6 +2,9 @@
 page_id: exoskeleton_topology_optimization
 layout: page
 title: "外骨骼大腿部件拓扑优化与有限元分析"
+card_title: "外骨骼拓扑优化"
+card_description: "外骨骼大腿部件的结构设计、拓扑优化与有限元分析。"
+cover_label: "FEA"
 description: "基于 ANSYS 对外骨骼大腿部件进行拓扑优化与有限元分析，优化网格策略以提高收敛速度并减少计算资源消耗。"
 img: assets/img/projects/exoskeleton_topology_optimization/cover.jpg
 importance: 4

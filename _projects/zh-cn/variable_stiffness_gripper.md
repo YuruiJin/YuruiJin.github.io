@@ -2,6 +2,11 @@
 page_id: variable_stiffness_gripper
 layout: page
 title: "基于双板簧机构的变刚度夹爪"
+card_title: "双板簧变刚度夹爪"
+card_description: "机构设计、原型制作与实验验证，论文发表于 IEEE CASE 2023。"
+cover_label: "DLSG"
+featured: true
+featured_order: 1
 description: "一种轻量紧凑的双板簧变刚度夹爪，用于工业场景中对不同硬度物体的自适应抓取。发表于 IEEE CASE 2023。"
 img: assets/img/projects/variable_stiffness_gripper/cover.jpg
 importance: 1

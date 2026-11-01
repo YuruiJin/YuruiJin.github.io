@@ -2,6 +2,9 @@
 page_id: infant_inspection_robot
 layout: page
 title: "智能婴儿巡检机器人"
+card_title: "智能婴儿巡检机器人"
+card_description: "巡检机器人的机械结构设计，以及机械臂保护外壳与控制。"
+cover_label: "Robotics"
 description: "设计机械结构并增强机器人手臂的保护外壳，用于智能婴儿监护机器人。获江苏省一等奖和全国二等奖。"
 img: assets/img/projects/infant_inspection_robot/Intelligent infant inspection robot_coverpages.png
 importance: 3

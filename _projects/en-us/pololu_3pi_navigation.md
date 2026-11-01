@@ -2,6 +2,9 @@
 page_id: pololu_3pi_navigation
 layout: page
 title: "Autonomous Navigation and Sensor Fusion on Pololu 3pi Robot"
+card_title: "Pololu 3pi autonomous navigation"
+card_description: "Sensor fusion, waypoint navigation, and closed-loop control on a mobile robot. Work in progress."
+cover_label: "Pololu 3pi"
 description: "Developing a fully autonomous mobile robot pipeline with sensor fusion, real-time waypoint navigation, and target manipulation on the Pololu 3pi platform."
 img: assets/img/projects/pololu_3pi_navigation/cover.jpg
 importance: 1

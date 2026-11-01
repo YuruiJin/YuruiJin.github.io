@@ -2,6 +2,9 @@
 page_id: esp32_monitoring_system
 layout: page
 title: "ESP32 远程温湿度监控系统"
+card_title: "ESP32 远程监控系统"
+card_description: "结合 WiFi 与 MQTT 的远程温湿度采集与传输系统。"
+cover_label: "ESP32"
 description: "基于 ESP32 微控制器开发的远程温湿度监控系统，支持 WiFi 连接和 MQTT 协议，为研发实习期间完成的项目。"
 img: assets/img/projects/esp32_monitoring_system/cover.jpg
 importance: 4

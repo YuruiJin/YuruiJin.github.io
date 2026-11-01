@@ -2,6 +2,9 @@
 page_id: exoskeleton_topology_optimization
 layout: page
 title: "Topology Optimization and FEA of Exoskeleton Thigh Component"
+card_title: "Exoskeleton topology optimization"
+card_description: "Structural design, topology optimization, and finite element analysis of an exoskeleton thigh component."
+cover_label: "FEA"
 description: "Performed structural design and ANSYS-based topology optimization and finite element analysis for an exoskeleton thigh component, improving meshing strategy for computational efficiency."
 img: assets/img/projects/exoskeleton_topology_optimization/cover.jpg
 importance: 4

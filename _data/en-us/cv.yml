@@ -50,9 +50,9 @@
   type: time_table
   contents:
     - title: A Variable Stiffness Gripper with Dual Leaf-Spring Mechanism
-      institution: 19th IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2024)
-      year: 2024
-      description: Co-authored paper on a novel soft robotic gripper design.
+      institution: 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE)
+      year: 2023
+      description: Co-authored paper on a dual leaf-spring variable stiffness gripper; contributed to mechanism design, prototyping, and paper writing.
     - title: "Variable Stiffness Single-Leg Mechanism and Legged Robot (Patent: CN202310216442A)"
       institution: China National Intellectual Property Administration (CNIPA)
       year: 2023

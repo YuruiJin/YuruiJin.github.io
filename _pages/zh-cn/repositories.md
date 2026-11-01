@@ -5,7 +5,7 @@ permalink: /repositories/
 title: 代码仓库
 description: 我的 GitHub 代码仓库与开源贡献。
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% if site.data.repositories.github_users %}

@@ -32,7 +32,7 @@ citation:
 collections:
   books: 书籍
   posts: 文章
-contact_note: 您可以在这里添加一小段说明，告诉大家哪种方式最容易联系到您。
+contact_note: 研究交流与工程合作，欢迎通过电子邮件联系我。
 cv:
   address: 地址
   area: 领域
@@ -167,6 +167,15 @@ search:
     title: 使用系统默认主题
   theme: 主题
 selected_publications: 精选论文
-site_description: 一个简洁、留白的学术个人主页主题。
+site_description: 金榆瑞的个人主页：机器人运动规划、柔顺机构与控制。了解研究成果、机器人项目、论文及简历。
 first_name: "金"
 last_name: "榆瑞"
+home:
+  publications: 论文
+  cv: 简历
+  contact: 联系我
+projects:
+  featured: 精选项目
+  view_all: 查看全部项目
+  view_project: 了解项目
+  view_code: 查看代码

@@ -7,7 +7,7 @@ title: Blog
 blog_name: Yurui's Blog
 description: Thoughts on robotics, motion planning, and engineering
 nav: true
-nav_order: 1
+nav_order: 4
 pagination:
   enabled: true
   collection: posts

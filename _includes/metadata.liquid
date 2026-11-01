@@ -85,7 +85,7 @@
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
-<meta name="description" content="{{ description }}">
+<meta name="description" content="{{ description | strip_html | normalize_whitespace | escape }}">
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -97,24 +97,40 @@
   {% endunless %}
 {% endif %}
 
+{% comment %}Build explicit language URLs; static_href prevents Polyglot from rewriting alternate links.{% endcomment %}
+{% assign seo_path = page.url | remove: 'index.html' %}
+{% assign path_language = seo_path | split: '/' | slice: 1 | first %}
+{% if site.languages contains path_language %}
+  {% assign path_prefix = '/' | append: path_language %}
+  {% assign seo_path = seo_path | remove_first: path_prefix %}
+{% endif %}
+{% assign seo_root = site.url | append: site.baseurl %}
+{% assign seo_default_url = seo_root | append: seo_path %}
+{% assign seo_page_url = seo_default_url %}
+{% if site.active_lang != site.default_lang %}
+  {% assign seo_page_url = seo_root | append: '/' | append: site.active_lang | append: seo_path %}
+{% endif %}
+{% assign seo_image = page.og_image | default: site.og_image | absolute_url %}
+<link rel="canonical" {% static_href %} href="{{ seo_page_url }}" {% endstatic_href %}>
+
 {% if site.serve_og_meta %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page_title }}{% else %}{{ title }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ seo_page_url }}">
+  <meta property="og:description" content="{{ description | strip_html | normalize_whitespace | escape }}">
   {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    <meta property="og:image" content="{{ seo_image }}">
   {% endif %}
   <meta property="og:locale" content="{{ site.active_lang | replace: '-', '_' }}">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page_title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:description" content="{{ description | strip_html | normalize_whitespace | escape }}">
   {% if page.og_image or site.og_image %}
-    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+    <meta name="twitter:image" content="{{ seo_image }}">
   {% endif %}
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">
@@ -126,12 +142,12 @@
 {% if site.languages.size >= 2 %}
   {% for lang in site.languages %}
     {% if lang == site.default_lang %}
-      <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+      <link rel="alternate" hreflang="{{ lang }}" {% static_href %} href="{{ seo_default_url }}" {% endstatic_href %}>
     {% else %}
-      <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ site.baseurl }}/{{ lang }}{{ page.url }}">
+      <link rel="alternate" hreflang="{{ lang }}" {% static_href %} href="{{ seo_root }}/{{ lang }}{{ seo_path }}" {% endstatic_href %}>
     {% endif %}
   {% endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" hreflang="x-default" {% static_href %} href="{{ seo_default_url }}" {% endstatic_href %}>
 {% endif %}
 
 {% if site.serve_schema_org %}
@@ -289,16 +305,16 @@
         "author":
         {
             "@type": "Person",
-            "name": "{{ author_name }}"
+            "name": {{ author_name | strip | jsonify }}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "url": {{ seo_page_url | jsonify }},
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{{ description }}",
-        "headline": "{% if page.title %}{{ page_title }}{% else %}{{ site.title }}{% endif %}",
+        "description": {{ description | strip_html | normalize_whitespace | jsonify }},
+        "headline": {{ page_title | default: title | strip | jsonify }},
         {% if sameaslinks != blank %}
         "sameAs": {{ sameaslinks | jsonify }},
         {% endif %}
-        "name": "{{ author_name }}",
+        "name": {{ author_name | strip | jsonify }},
         "@context": "https://schema.org"
     }
   </script>

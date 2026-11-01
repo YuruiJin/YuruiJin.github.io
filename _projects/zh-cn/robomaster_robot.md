@@ -2,6 +2,11 @@
 page_id: robomaster_robot
 layout: page
 title: "RoboMaster 步兵与工程机器人设计"
+card_title: "RoboMaster 机器人设计"
+card_description: "步兵与工程机器人的悬挂及机械臂设计，助力团队获 2022 年全国总决赛一等奖。"
+cover_label: "RoboMaster"
+featured: true
+featured_order: 3
 description: "在 RoboMaster 全国大学生机器人大赛中，负责步兵机器人悬架系统和工程机器人机械臂机构设计与优化。2022 年荣获全国一等奖。"
 img: assets/img/projects/robomaster_robot/Robomaster_cover page.png
 importance: 2

@@ -7,7 +7,7 @@ title: 博客
 blog_name: 金榆瑞的博客
 description: 一个简洁的学术个人主页主题
 nav: true
-nav_order: 1
+nav_order: 4
 pagination:
   enabled: true
   collection: posts

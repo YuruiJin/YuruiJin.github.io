@@ -1,25 +1,35 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        {% assign localized_first_name = site.data[site.active_lang].strings.first_name | default: site.first_name %}
-        {% assign localized_middle_name = site.data[site.active_lang].strings.middle_name | default: site.middle_name %}
-        {% assign localized_last_name = site.data[site.active_lang].strings.last_name | default: site.last_name %}
-        <span class="font-weight-bold">{{ localized_first_name }}</span> {{ localized_middle_name }}
-        {{ localized_last_name }}
-      {% else %}
-        {{ site.title }}
+<div class="post about-page">
+  <section class="about-hero" aria-labelledby="about-name">
+    <div class="about-copy">
+      <header class="post-header">
+        <h1 class="post-title" id="about-name">
+          {% if site.title == 'blank' %}
+            {% assign localized_first_name = site.data[site.active_lang].strings.first_name | default: site.first_name %}
+            {% assign localized_middle_name = site.data[site.active_lang].strings.middle_name | default: site.middle_name %}
+            {% assign localized_last_name = site.data[site.active_lang].strings.last_name | default: site.last_name %}
+            <span class="font-weight-bold">{{ localized_first_name }}</span> {{ localized_middle_name }}
+            {{ localized_last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <p class="desc">{{ page.subtitle }}</p>
+      </header>
+      <div class="about-summary">{{ content }}</div>
+      {% if page.featured_projects %}
+        <div class="about-actions">
+          <a class="about-action-primary" href="{{ '/projects/' | relative_url }}">{{ site.data[site.active_lang].strings.projects.view_all }}</a>
+          <a href="{{ '/publications/' | relative_url }}">{{ site.data[site.active_lang].strings.home.publications }}</a>
+          <a href="{{ '/cv/' | relative_url }}">{{ site.data[site.active_lang].strings.home.cv }}</a>
+          <a href="mailto:{{ site.data.socials.email | encode_email }}">{{ site.data[site.active_lang].strings.home.contact }}</a>
+        </div>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
+    </div>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -27,10 +37,10 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% assign sizes = '(min-width: 768px) 240px, 128px' %}
+          {% assign profile_alt = page.profile.alt | default: author_name %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_alt
             cache_bust=true
           %}
         {% endif %}
@@ -39,8 +49,19 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
+  </section>
 
-    <div class="clearfix">{{ content }}</div>
+  <article>
+    {% if page.featured_projects %}
+      {% include featured-projects.liquid %}
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -56,14 +77,6 @@ layout: default
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.latest_posts }}</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
-      </h2>
-      {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Social -->

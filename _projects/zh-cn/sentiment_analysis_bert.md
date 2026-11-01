@@ -2,10 +2,13 @@
 page_id: sentiment_analysis_bert
 layout: page
 title: "基于 BERT 的电影评论情感分析"
+card_title: "BERT 情感分析"
+card_description: "结合数据增强与 LIME / SHAP 可解释分析的电影评论情感分类。"
+cover_label: "BERT"
 description: "开发基于 BERT 的情感分析模型，采用数据增强与重采样技术处理数据不平衡问题，使用 LIME 和 SHAP 工具提升模型可解释性。"
 img: assets/img/projects/sentiment_analysis_bert/cover.jpg
 importance: 4
-category: algorithm
+category: algorithm-perception
 tags: [machine-learning, NLP, BERT, sentiment-analysis, Python]
 related_publications: false
 date: 2023-02-01

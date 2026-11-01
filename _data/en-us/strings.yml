@@ -32,7 +32,7 @@ citation:
 collections:
   books: books
   posts: posts
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: For research and engineering enquiries, email is the best way to reach me.
 cv:
   address: Address
   area: Area
@@ -167,4 +167,13 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+site_description: Yurui Jin, robotics MSc student working on robot motion planning, compliant mechanisms, and control. Explore research, engineering projects, and publications.
+home:
+  publications: Publications
+  cv: CV
+  contact: Contact
+projects:
+  featured: Selected projects
+  view_all: Explore projects
+  view_project: View project
+  view_code: View code

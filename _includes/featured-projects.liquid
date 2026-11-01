@@ -1,0 +1,17 @@
+{% assign featured_projects = site.projects | where: 'featured', true | sort: 'featured_order' %}
+{% if featured_projects.size > 0 %}
+  <section class="featured-projects projects" aria-labelledby="featured-projects-title">
+    <div class="section-heading">
+      <h2 id="featured-projects-title">{{ site.data[site.active_lang].strings.projects.featured }}</h2>
+      <a href="{{ '/projects/' | relative_url }}">
+        {{- site.data[site.active_lang].strings.projects.view_all }}
+        <span aria-hidden="true">&rarr;</span></a
+      >
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+      {% for project in featured_projects limit: 3 %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

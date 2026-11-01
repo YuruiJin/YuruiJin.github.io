@@ -2,6 +2,9 @@
 page_id: mecanum_wheel_robot
 layout: page
 title: "Mecanum Wheel Omnidirectional Mobile Robot (RMO-08)"
+card_title: "Mecanum wheel mobile robot"
+card_description: "Mechanical design, inverse kinematics, and embedded PID control for omnidirectional motion."
+cover_label: "Mecanum"
 description: "Led mechanical design, developed inverse kinematics solver for omnidirectional motion, and built embedded PID control system based on Arduino."
 img: assets/img/projects/mecanum_wheel_robot/cover.jpg
 importance: 3

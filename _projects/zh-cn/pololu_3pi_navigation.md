@@ -2,6 +2,9 @@
 page_id: pololu_3pi_navigation
 layout: page
 title: "Pololu 3pi 机器人自主导航与传感器融合"
+card_title: "Pololu 3pi 自主导航"
+card_description: "移动机器人的传感器融合、航点导航与闭环控制，项目持续验证中。"
+cover_label: "Pololu 3pi"
 description: "在 Pololu 3pi 平台上开发全自主移动机器人系统，实现传感器融合、实时路径导航与目标操控。"
 img: assets/img/projects/pololu_3pi_navigation/cover.jpg
 importance: 1

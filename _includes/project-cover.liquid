@@ -1,0 +1,15 @@
+{% assign project_image_exists = 'false' %}
+{% if project.img %}
+  {% capture project_image_exists %}{% file_exists {{ project.img }} %}{% endcapture %}
+{% endif %}
+{% if project_image_exists == 'true' %}
+  <div class="project-cover">
+    {% include figure.liquid path=project.img sizes="(min-width: 1000px) 310px, (min-width: 576px) 45vw, 95vw" alt=project.title class="card-img-top" %}
+  </div>
+{% else %}
+  <div class="project-cover project-cover-text" aria-hidden="true">
+    <span class="project-cover-category">{{ site.data[site.active_lang].strings.categories[project.category] }}</span>
+    <span class="project-cover-label">{{ project.cover_label | default: project.tags.first }}</span>
+    <span class="project-cover-tags">{{ project.tags | slice: 0, 3 | join: ' / ' }}</span>
+  </div>
+{% endif %}

@@ -2,6 +2,9 @@
 page_id: vsa_legged_robot
 layout: page
 title: "基于可变刚度执行器的单腿机构与腿式机器人"
+card_title: "可变刚度单腿机构"
+card_description: "通过弹性元件布局与刚度调节，研究跳跃性能和能效。"
+cover_label: "VSA"
 description: "通过优化单腿机构中弹性元件的位置与方向，提升机器人跳跃性能与能量效率。暑期本科生科研奖学金 (SURF) 项目。"
 img: assets/img/projects/vsa_legged_robot/cover.jpg
 importance: 2

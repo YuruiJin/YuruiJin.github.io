@@ -1,13 +1,17 @@
 ---
 ---
 <div class="row">
+  {% assign venue_label = entry.abbr %}
+  {% if entry.note contains 'Under Review' %}
+    {% assign venue_label = 'Preprint' %}
+  {% endif %}
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
-      {%- if entry.abbr -%}
-        {%- if site.data.venues[entry.abbr] -%}
+      {%- if venue_label -%}
+        {%- if site.data.venues[venue_label] -%}
           {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {% if site.data.venues[venue_label].color != blank %}
+            {% assign venue_style = site.data.venues[venue_label].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
             class="badge rounded w-100"
@@ -15,14 +19,14 @@
               {{ venue_style }}
             {% endif -%}
           >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% if site.data.venues[venue_label].url %}
+              <a href="{{ site.data.venues[venue_label].url }}">{{ venue_label }}</a>
             {% else %}
-              <div>{{- entry.abbr -}}</div>
+              <div>{{- venue_label -}}</div>
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded w-100">{{ venue_label }}</abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -153,7 +157,9 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
-    {% if entry.type == 'article' %}
+    {% if entry.note contains 'Under Review' %}
+      {% capture entrytype %}<em>Preprint</em>{% endcapture %}
+    {% elsif entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
@@ -185,7 +191,7 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
+    <div class="periodical{% if entry.note contains 'Under Review' %} publication-status{% endif %}">
       {{ entry.note | strip }}
     </div>
 

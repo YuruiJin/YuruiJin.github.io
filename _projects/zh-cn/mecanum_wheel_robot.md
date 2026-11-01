@@ -2,6 +2,9 @@
 page_id: mecanum_wheel_robot
 layout: page
 title: "RMO-08 麦克纳姆轮全方位移动机器人"
+card_title: "麦克纳姆轮移动机器人"
+card_description: "全方位移动平台的机械设计、逆运动学与嵌入式 PID 控制。"
+cover_label: "Mecanum"
 description: "负责机械设计与建模，开发逆运动学解算器实现全方位运动，基于 Arduino 搭建 PID 闭环控制系统。"
 img: assets/img/projects/mecanum_wheel_robot/cover.jpg
 importance: 3

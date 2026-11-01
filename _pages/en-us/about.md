@@ -10,12 +10,12 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
+  alt: Yurui Jin
   image_circular: true
   more_info: >
-    <p>Faculty of Science and Engineering</p>
-    <p>University of Bristol</p>
     <p>Bristol, United Kingdom</p>
 
+featured_projects: true
 selected_papers: true
 social: true
 
@@ -30,10 +30,6 @@ latest_posts:
   limit: 3
 ---
 
-Hi! I am Yurui Jin. I am currently pursuing an MSc in Robotics, a joint program offered by the [University of Bristol](https://www.bristol.ac.uk/) and [UWE Bristol](https://www.uwe.ac.uk/), within the Faculty of Science and Engineering. Previously, I obtained my BEng in Mechatronics and Robotics System from the University of Liverpool.
+I work on robot motion planning, compliant mechanisms, and control, connecting ROS and embedded software with mechanical design.
 
-My research interests lie in robot motion planning, control systems, and mechanical design. I am highly passionate about bridging software algorithms with hardware deployment, with extensive hands-on experience in ROS, embedded systems (STM32, Arduino), and 3D modeling (SolidWorks).
-
-During my undergraduate studies, I actively participated in the **RoboMaster University Championship**, where I designed suspension systems and robotic arms, leading our team to win multiple national and regional awards. Furthermore, I have been deeply involved in academic research. I co-authored a paper on a variable stiffness gripper which was accepted by the _IEEE/ASME AIM_ conference, and I also hold a patent for an adaptive pipeline polishing robot.
-
-I am always eager to explore innovative robotic solutions and tackle real-world engineering challenges!
+My work includes a dual leaf-spring gripper published at **IEEE CASE 2023**, RRT\* trajectory planning in ROS MoveIt, and suspension and robotic arm design for the **RoboMaster 2022 National First Prize** team.

@@ -2,6 +2,9 @@
 page_id: esp32_monitoring_system
 layout: page
 title: "ESP32 Remote Temperature & Humidity Monitoring System"
+card_title: "ESP32 monitoring system"
+card_description: "Temperature and humidity sensing with WiFi connectivity and MQTT messaging."
+cover_label: "ESP32"
 description: "Developed a remote temperature and humidity monitoring system using ESP32 microcontroller with WiFi connectivity and MQTT protocol during R&D internship."
 img: assets/img/projects/esp32_monitoring_system/cover.jpg
 importance: 4

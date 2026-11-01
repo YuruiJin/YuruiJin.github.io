@@ -5,7 +5,7 @@ title: 项目
 permalink: /projects/
 description: 个人项目作品集展示。
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [core-research, robot-system, algorithm-perception, competition, open-source, industry, work, fun]
 horizontal: false
 ---
@@ -13,11 +13,10 @@ horizontal: false
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
     {% for category in page.display_categories %}
-      <a id="{{ site.data[site.active_lang].strings.categories[category] }}" href=".#{{ site.data[site.active_lang].strings.categories[category] }}">
-        <h2 class="category">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
-      </a>
       {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      {% if sorted_projects.size > 0 %}
+      <h2 class="category" id="{{ category }}">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
       {% if page.horizontal %}
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2">
@@ -27,11 +26,12 @@ horizontal: false
           </div>
         </div>
       {% else %}
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
           {% for project in sorted_projects %}
             {% include projects.liquid %}
           {% endfor %}
         </div>
+      {% endif %}
       {% endif %}
     {% endfor %}
   {% else %}
@@ -45,7 +45,7 @@ horizontal: false
         </div>
       </div>
     {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
         {% for project in sorted_projects %}
           {% include projects.liquid %}
         {% endfor %}

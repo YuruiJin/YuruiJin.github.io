@@ -2,6 +2,9 @@
 page_id: infant_inspection_robot
 layout: page
 title: "Intelligent Infant Inspection Robot"
+card_title: "Infant inspection robot"
+card_description: "Mechanical structure and protective housing design for an inspection robot with a robotic arm."
+cover_label: "Robotics"
 description: "Designed mechanical structure and enhanced robotic arm with protective housing for an intelligent infant monitoring robot. Achieved First Prize in Jiangsu Province and Second Prize in National Finals."
 img: assets/img/projects/infant_inspection_robot/Intelligent infant inspection robot_coverpages.png
 importance: 3

@@ -2,6 +2,11 @@
 page_id: trajectory_planning_rrt
 layout: page
 title: "基于 RRT* 的六轴机械臂轨迹规划优化"
+card_title: "RRT* 机械臂轨迹规划"
+card_description: "在 ROS MoveIt 中优化六轴机械臂路径与轨迹平滑，并在 Gazebo 中验证。"
+cover_label: "RRT*"
+featured: true
+featured_order: 2
 description: "基于 MoveIt 框架改进 RRT* 算法，并设计后处理优化算法平滑轨迹、降低关节冲击。在 Gazebo 仿真环境中验证。（本科毕业设计）"
 img: assets/img/projects/trajectory_planning_rrt/cover.jpg
 importance: 2

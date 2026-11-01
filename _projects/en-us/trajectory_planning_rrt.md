@@ -2,6 +2,11 @@
 page_id: trajectory_planning_rrt
 layout: page
 title: "Trajectory Planning Optimization for 6-DOF Robotic Arm Based on RRT*"
+card_title: "RRT* arm trajectory planning"
+card_description: "Planning and trajectory smoothing for a 6-DOF arm in ROS MoveIt, evaluated in Gazebo."
+cover_label: "RRT*"
+featured: true
+featured_order: 2
 description: "Improved RRT* algorithm within ROS MoveIt framework for robotic arm path planning. Designed post-processing optimization to smooth trajectories and reduce joint shock. Validated in Gazebo simulation. (Undergraduate Final Year Project)"
 img: assets/img/projects/trajectory_planning_rrt/cover.jpg
 importance: 2
